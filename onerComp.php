@@ -50,6 +50,8 @@
             <p>Please keep in mind that although it might make a spectacular shot to fly up a city street or along side a car these types of shots often require extra permissions to carry out legally depending on drone height - this can often incur extra expense to have traffic and public control. <br><br>This should in no means put you off an epic shot but we recommend that you plan a shot / scene that is within in your capabilities to organise safely and legally.  If you have any questions about feasibility or legality please get in touch before submitting.</p>
 
             <a href="/contact.php"><button class="btn">Submit</button></a>
+            <br><br>
+            <h5>Winner will be announced on Monday the 5th April 2021</h5>
     <br><br><hr>
 
 
