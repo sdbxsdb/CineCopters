@@ -70,6 +70,7 @@
                     <li>- CineCopters will be fully insured for the shoot under their own insurance but the winner must look after any other form of necessary insurance to carry out the shoot. CineCopters insurance will only cover incidents caused by the drone when it's in flight.</li><br>
                     <li>- CineCopters reserve the right to cancel the shoot if the preposed winning idea can not be carried out as first described.</li>
                     <li>- CineCopters reserve the right to amend any part of the shot / scene that we deem to be unsafe.</li>
+                    <li>- CineCopters decision is final on the winning idea.</li>
                 </ul>
             </small>
 
