@@ -37,7 +37,7 @@ The shot can be as long as you want within reason and can start in the air, tran
 
   <!-- TWITTER META -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://cinecopters.co.uk/about">
+  <meta property="twitter:url" content="https://cinecopters.co.uk/onerComp">
   <meta property="twitter:title" content="The Oner - CineCopters | Drone Filming Belfast, Northern Ireland & Dublin, Ireland">
   <meta property="twitter:description" content="What you need to do - Come up with a shot / scene that can be done in one continuous take using a drone as a handheld gimbal AND a flying platform.
 The shot can be as long as you want within reason and can start in the air, transfer to the ground and the fly back in the air or vice versa but it must have 2 transitions.">
