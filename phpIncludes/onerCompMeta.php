@@ -29,7 +29,7 @@ The shot can be as long as you want within reason and can start in the air, tran
 
   <!--OPEN GRAPH AND FB META-->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://cinecopters.co.uk/about">
+  <meta property="og:url" content="https://cinecopters.co.uk/onerComp">
   <meta property="og:title" content="The Oner - CineCopters | Drones for Film &amp; TV">
   <meta property="og:image" content="/img/vulcan4.jpg">
   <meta property="og:description" content="What you need to do - Come up with a shot / scene that can be done in one continuous take using a drone as a handheld gimbal AND a flying platform.
