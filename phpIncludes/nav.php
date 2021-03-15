@@ -39,6 +39,9 @@
                 <a class="nav-link" href="showreelstock.php">Showreels / Stock Library</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="onerComp.php">The Oner</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="contact.php">Contact</a>
               </li>
             </ul>
