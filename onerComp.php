@@ -24,7 +24,7 @@
         <div id="qualis" class="container">
             <h2>What you need to do</h2>
             <p>Come up with a shot / scene that can be done in one continuous take using a drone as a handheld gimbal AND a flying platform. <br><br>
-                The shot can be as long as you want within reason and can start in the air, transfer to the ground and the fly back in the air or vice versa but it must have 2 transitions.<br><br>
+                The shot can be as long as you want within reason and can start in the air, transfer to the ground and then fly back in the air or vice versa but it must have 2 transitions.<br><br>
                 <hr> Up -> Down -> Up <br>OR <br>Down -> Up -> Down
                 <hr>
 
