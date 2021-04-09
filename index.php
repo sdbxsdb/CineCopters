@@ -47,7 +47,7 @@
         <a href="https://www.imdb.com/title/tt4244994/" target="_blank">
           <div class="card-body">
             <h5 class="card-title">Ridley Scott</h5>
-            <p class="card-text">Better than a f*ckin' helicopter! <br>Oh My God...”</p>
+            <p class="card-text">"Better than a f*ckin' helicopter! <br>Oh my God...”</p>
             <hr>
             <h5 class="card-text">The Last Duel - <small><cite>Starring Matt Damon, Ben Affleck &amp; Adam Driver</cite></small></h5>
             <h6 class="card-text job"></h6>
@@ -56,6 +56,17 @@
       </div>
     </div>
     <div class="container card-group">
+      <div class="card">
+        <a href="http://antidote.ie/services/" target="blank">
+          <div class="card-body">
+            <h5 class="card-title">Above & Beyond</h5>
+            <p class="card-text">“CineCopters are at the top of their game and I can highly recommend them to anyone looking for first-class filming in Ireland. Having worked with them all around the country over the past 7 years, on all kinds of productions, their calm and professional approach is second to none. <br><br>The footage they deliver is always above and beyond what the director is looking for. We were really impressed by the high standard of service, professionalism, and superb quality of the footage.”</p>
+            <hr>
+            <h5 class="card-text">Glen Collins - <small><cite>Producer </cite></small></h5>
+            <h6 class="card-text">Guinness Diageo Commercials</h6>
+          </div>
+        </a>
+      </div>
       <div class="card">
         <a href="https://www.buccaneermedia.com/" target="blank">
           <div class="card-body">
@@ -68,24 +79,13 @@
         </a>
       </div>
       <div class="card">
-        <a href="http://antidote.ie/services/" target="blank">
+        <a href="https://www.bbdo.ie/" target="blank">
           <div class="card-body">
-            <h5 class="card-title">Above & Beyond</h5>
-            <p class="card-text">“CineCopters are at the top of their game and I can highly recommend them to anyone looking for first-class filming in Ireland. Having worked with them all around the country over the past 5 years, on all kinds of productions, their calm and professional approach is second to none. The footage they deliver is always above and beyond what the director is looking for. We were really impressed by the high standard of service, professionalism, and superb quality of the footage.”</p>
+            <h5 class="card-title">Height of Professionalism</h5>
+            <p class="card-text">“Their attitude, knowledge and flexibility were next to none on our project and it made everyone’s job easier. Every problem had a solution and their incredibly quick responses and communication was hugely appreciated. <br><br>The footage and stills we got were gorgeous and our client is still beaming with joy over what was captured. I’d work with CineCopters again in a heartbeat and I plan to do so at the earliest opportunity! The lads just ‘get it’ - no fuss, no hassle and no problem.”</p>
             <hr>
-            <h5 class="card-text">Glen Collins - <small><cite>Producer </cite></small></h5>
-            <h6 class="card-text">Guinness Diageo Commercials</h6>
-          </div>
-        </a>
-      </div>
-      <div class="card">
-        <a href="https://www.hattrick.co.uk/" target="blank">
-          <div class="card-body">
-            <h5 class="card-title">Speed &amp; Efficiency</h5>
-            <p class="card-text">“The speed and efficiency of the guys blew me away. I found myself making up more shots because it took no time to get exactly what I wanted!”</p>
-            <hr>
-            <h5 class="card-text">Michael Lennox - <small><cite>Director </cite></small></h5>
-            <h6 class="card-text">Derry Girls 1 & 2 - TV Drama</h6>
+            <h5 class="card-text">Georgia Stevenson - <small><cite>Producer BBDO </cite></small></h5>
+            <h6 class="card-text">Tourism Ireland Commercials</h6>
           </div>
         </a>
       </div>
@@ -106,7 +106,7 @@
         <a href="http://www.georgepagliero.com/" target="blank">
           <div class="card-body">
             <h5 class="card-title">Top of Their Game</h5>
-            <p class="card-text">“I cannot speak more highly of CineCopters approach to filming... Communication between BBC production and their crew was excellent throughout; they worked just as happily overseen by our director as independently to a brief... Absolutely stunning (the opening shots of the show are to die for). Having worked with over a dozen drone and ground crews in the last few years I can confidently say they are at the top of their game and recommend them to anyone looking for first class company in Ireland...”</p>
+            <p class="card-text">“I cannot speak more highly of CineCopters approach to filming... Communication between BBC production and their crew was excellent throughout; they worked just as happily overseen by our director as independently to a brief... <br><br>Absolutely stunning (the opening shots of the show are to die for). Having worked with over a dozen drone and ground crews in the last few years I can confidently say they are at the top of their game and recommend them to anyone looking for first class company in Ireland...”</p>
             <hr>
             <h5 class="card-text">George Pagliero - <small><cite>DOP</cite></small></h5>
             <h6 class="card-text"></h6>
@@ -121,7 +121,7 @@
               Always on the ball, super quick to respond and help in anyway they can.
               Professional and dedicated to the job, very happy to recommend them, they make a great addition to any team.”</p>
             <hr>
-            <h5 class="card-text">Lorraine Geoghegan- <small><cite>Producer</cite></small></h5>
+            <h5 class="card-text">Lorraine Geoghegan - <small><cite>Producer</cite></small></h5>
             <h6 class="card-text"></h6>
           </div>
         </a>
@@ -132,7 +132,7 @@
         <a href="https://www.amc.com/" target="_blank">
           <div class="card-body">
             <h5 class="card-title">Skill &amp; Professionalism in a Relaxed No Fuss Fashion</h5>
-            <p class="card-text">Season 3 of Into the Badlands required extensive drone work. Cinecopters covered every day we required on a multi unit shoot, often at late notice due to our ever changing schedule. We used both lightweight and heavy lift drones all of which were operated with great skill, professionalism but in a relaxed no fuss fashion by the lads at Cinecopters. We would not have been able to show the epic landscapes and expand the world of the Badlands without them”</p>
+            <p class="card-text">Season 3 of Into the Badlands required extensive drone work. Cinecopters covered every day we required on a multi unit shoot, often at late notice due to our ever changing schedule. We used both lightweight and heavy lift drones all of which were operated with great skill, professionalism but in a relaxed no fuss fashion by the lads at Cinecopters. <br><br>We would not have been able to show the epic landscapes and expand the world of the Badlands without them”</p>
             <hr>
             <h5 class="card-text">Stephen Burt - <small><cite>Producer / Production Manager</cite></small></h5>
             <h6 class="card-text job"></h6>
