@@ -8,11 +8,11 @@
 
   <div id="headerbox">
     <div id="heroVideoWrapper">
-      <video id="heroVideo" autoplay loop muted playsinline>
-        <!-- <source src="/img/CineCopters - 2018 Recap NO SOUND3.mp4"> -->
-      </video>
+    <div id="heroVideo"></div>
     </div>
   </div>
+
+ 
 
 
   <div class="container" id=firstInfo>
@@ -35,6 +35,7 @@
     </a>
     <hr>
   </div>
+
 
 
 
