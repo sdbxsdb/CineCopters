@@ -17,7 +17,7 @@
 
   <div class="container" id=firstInfo>
     <div class="title">
-      <h1>Dronasdes for Film &amp; TV</h1>
+      <h1>Drones for Film &amp; TV</h1>
     </div>
     <div class="info">
       <p>For as long as drones have been around, CineCopters, based in Belfast, Northern Ireland have been ahead of the pack.<br><br>
