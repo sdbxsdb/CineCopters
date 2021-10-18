@@ -153,15 +153,13 @@
     <div class="col-md lhs">FPV<br>(First Person View)</>
     </div>
     <div class="col rhs">
-      The beauty of FPV (or First Person View) is the ability to go almost anywhere, fit through almost any gap and get shots that could only every be achived before with the help of visual effects.<br><br><strong>Bank in the corners, fly through open windows and dive like a bird.</strong><br><br>CineCopters are the first company in Ireland to offer FPV drones to the Cinema &amp; Television industry commercially. <small>(Conditions apply)</small>.<br><br>
+      CineCopters are the first company in Ireland to offer FPV drones to the Cinema &amp; Television industry commercially. <br><br> 
+      Built and tuned fully in house by CineCopters technicians we fly <strong>GoPro Hero 9s and 10s</strong> as well as <strong>Red Komodos</strong> and similar sized cameras on our Heavylift FPV Platform.<br><br>
+      
+      
+      The beauty of FPV (or First Person View) is the ability to go almost anywhere, fit through almost any gap and get shots that could only every be achived before with the help of visual effects.<br><br><strong>Weather it's drifting through open windows or chasing cars at 100mph+ we have an FPV drone for the job.</strong><br><br>
 
-      Our drones are miniscule but are ultra stable and can still reach speeds of 50mph while carrying cameras capable of shooting:
-      <ul>
-        <li>4K - 60fps @ 100mbps</li>
-        <li>2.7K - 120fps @ 100mbps</li>
-        <li>1080 - 240fps</li>
-        <li>4K 360 VR Cameras</li>
-      </ul>
+      
 
       <p id="examplesFPV"><a data-toggle="modal" data-target="#modal5"><button class="btn">Examples</button></a></p>
 

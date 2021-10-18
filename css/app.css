@@ -638,7 +638,7 @@ header #logo-main:hover {
 }
 
 #cinecoptersEquipment .imgContainer {
-  background-image: url(/img/vulcan5.png);
+  background-image: url(/img/gear.jpeg);
   background-position: center;
 }
 
@@ -883,19 +883,19 @@ header #logo-main:hover {
 }
 
 #cinecoptersEquipment #panel5 {
-  background-image: url(/img/fpv1.jpg);
-  background-position: -50px;
+  background-image: url(/img/sicc2.jpeg);
+  background-position: -230px;
 }
 
 @media only screen and (min-width: 1920px) {
   #cinecoptersEquipment #panel5:hover {
-    background-position: 0;
+    background-position: -80px;
   }
 }
 
 @media only screen and (max-width: 1217px) {
   #cinecoptersEquipment #panel5:hover {
-    background-position: 0px;
+    background-position: -80px;
   }
 }
 
@@ -1076,8 +1076,9 @@ header #logo-main:hover {
 }
 
 #cinecoptersEquipment #lighttether {
-  background-image: url(/img/cinewhoop.jpg);
+  background-image: url(/img/sicc.jpeg);
   background-attachment: fixed;
+  background-position: 0px -250px;
   background-size: cover;
   height: auto;
 }
