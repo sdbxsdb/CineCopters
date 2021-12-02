@@ -64,8 +64,7 @@
             transform: translate(0%,-50%);
             position: absolute;
             top: 76%;
-            right:0px;
-            border:solid 1px red;">
+            right:0px;">
         <div style="width:100%;
         position:relative;
         display: flex;
