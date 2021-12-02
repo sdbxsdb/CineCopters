@@ -7,8 +7,8 @@
   <!-- <div class="blackBar"></div> -->
 
   <div id="headerbox">
-    <div id="heroVideoWrapper">
-    <div id="heroVideo"></div>
+    <div style id="heroVideoWrapper">
+      <div id="heroVideo"></div>
     </div>
   </div>
 

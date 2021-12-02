@@ -1,6 +1,6 @@
 <body>
 
-  <div id="navBgImg">
+  <div id="navBgImg" style="position: relative;">
 
     <header>
       <div id="logoWrapper">
@@ -38,7 +38,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="showreelstock.php">Showreels / Stock Library</a>
               </li>
-<!--               <li class="nav-item">
+              <!--               <li class="nav-item">
                 <a class="nav-link" href="onerComp.php">The Oner</a>
               </li> -->
               <li class="nav-item">
@@ -59,20 +59,24 @@
       </a>
     </div>
 
-    <div style="
-    position:absolute;
-    top:116px;
-    right:0;">
-      <div style="width:100%;
-      position:relative;
-      display: flex;
-      justify-content: flex-end;">
-      <iframe src="https://giphy.com/embed/XEt9k83Ewmio04nd3z" height="100%" style="
-      height:100px!important;
-      top: 116px;
-      width: 100px;
-      right: 0px!important;" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    <div id="christmas" style="
+            position:absolute;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            top: 76%;
+            right: 0%;
+            right:0;">
+        <div style="width:100%;
+        position:relative;
+        display: flex;
+        justify-content: flex-end;">
+        <iframe src="https://giphy.com/embed/XEt9k83Ewmio04nd3z" height="100%" style="
+        height:100px!important;
+   
+        width: 100px;
+        right: 0px!important;" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        </div>
       </div>
-    </div>
+
 
   </div>
