@@ -61,11 +61,11 @@
 
     <div id="christmas" style="
             position:absolute;
-            transform: translate(-50%,-50%);
+            transform: translate(0%,-50%);
             position: absolute;
             top: 76%;
-            right: 0%;
-            right:0;">
+            right:0px;
+            border:solid 1px red;">
         <div style="width:100%;
         position:relative;
         display: flex;
