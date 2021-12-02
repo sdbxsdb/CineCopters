@@ -59,4 +59,20 @@
       </a>
     </div>
 
+    <div style="
+    position:absolute;
+    top:116px;
+    right:0;">
+      <div style="width:100%;
+      position:relative;
+      display: flex;
+      justify-content: flex-end;">
+      <iframe src="https://giphy.com/embed/XEt9k83Ewmio04nd3z" height="100%" style="
+      height:100px!important;
+      top: 116px;
+      width: 100px;
+      right: 0px!important;" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      </div>
+    </div>
+
   </div>
