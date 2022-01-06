@@ -60,6 +60,7 @@
     </div>
 
     <div id="christmas" style="
+            display:none;
             position:absolute;
             transform: translate(0%,-50%);
             position: absolute;
