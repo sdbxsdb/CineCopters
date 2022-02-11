@@ -249,7 +249,7 @@ header {
   color: white;
   display: inline-block;
   padding: 20px;
-  margin: 20px 0 0;
+  margin-top: 0;
 
   @media only screen and (max-width: 320px) {
     padding: 10px 6px;
@@ -943,7 +943,7 @@ hr {
 #lighttether {
   background-image: url(/img/sicc.jpeg);
   background-attachment: fixed;
-  background-position: 0px -250px;
+  background-position: 0px -450px;
   background-size: cover;
   height: auto;
   @media only screen and (min-width: 1920px) {
@@ -1202,16 +1202,17 @@ img {
   background-position: center;
 }
 #showreel5 {
-  background-image: url(/img/fpv.png);
-  background-position: center;
+  background-image: url(/fpvthumb2.jpeg);
+  background-position: bottom;
   background-size: 124%;
 }
 #showreel6 {
-  background-image: url(/img/snowPartol.jpg);
+  background-image: url(/2021reelThumb.jpeg);
   background-position: center;
 }
 
 #stockInfo {
+  margin-top: 60px;
   p {
     margin-bottom: 120px;
   }
@@ -1588,7 +1589,6 @@ img {
 
 //**CHRISTMAS STYLING//
 #christmas {
-  display: none;
   @media only screen and (max-width: 414px) {
     top: 107px!important;
     }

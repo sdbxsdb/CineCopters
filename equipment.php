@@ -184,8 +184,8 @@
             <div class="modal-body mb-0 p-0">
 
               <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/M-2V3lKZs6A?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
+              <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/676249787?h=052bbe59c9" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
               </div>
             </div>
 
