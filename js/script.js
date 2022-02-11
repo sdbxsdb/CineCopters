@@ -151,7 +151,7 @@ $('#modal5').on('hidden.bs.modal', function (e) {
   $('#modal5 iframe').attr("src", $("#modal5 iframe").attr("src"));
 });
 $('#modal6').on('hidden.bs.modal', function (e) {
-  $('#modal6 video').attr("src", $("#modal6 video").attr("src"));
+  $('#modal6 iframe').attr("src", $("#modal6 iframe").attr("src"));
 });
 $('#modal7').on('hidden.bs.modal', function (e) {
   $('#modal7 iframe').attr("src", $("#modal7 iframe").attr("src"));
