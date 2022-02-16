@@ -327,5 +327,5 @@ $("#logo-main").click(function() {
 
 //HERO BG VIDEO
 var heroVideo = new vidbg("#heroVideo", {
-  mp4: "/CineCopters - 2018 Recap NO SOUND.mp4",
+  mp4: "/WebsiteReel2022.mov",
 });
