@@ -17,11 +17,46 @@
         </div>
     </div>
 
+    
+
     <div class="container" id="imgGalleryWrapper">
+    
         <div class="row">
+            
+            
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Four Kids and IT | Feature Film" data-image="/img/posters/4 Kids.jpg" data-target="#image-gallery">
-                    <img id="test" class="img-thumbnail" src="/img/posters/4 Kids.jpg" alt="Inspire 2 drone crew wicklow ireland film four kids and it">
+                <a id="" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Vikings | Valhalla " data-image="/img/posters/thelastdual.jpg" data-target="#image-gallery">
+                    <img class="img-thumbnail" src="/img/posters/thelastdual.jpg" data-target="#image-gallery" alt="heavy lift drone crew film ireland the turning">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a id="" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Vikings | Valhalla " data-image="/img/posters/vikingg.jpeg" data-target="#image-gallery">
+                    <img class="img-thumbnail" src="/img/posters/vikingg.jpeg" data-target="#image-gallery" alt="heavy lift drone crew film ireland the turning">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a id="" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Top Gear " data-image="/img/posters/topgear.jpeg" data-target="#image-gallery">
+                    <img class="img-thumbnail" src="/img/posters/topgear.png" data-target="#image-gallery" alt="heavy lift drone crew film ireland the turning">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a id="" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Danny Boyle's | 'Pages of the Sea' " data-image="/img/posters/apple.png" data-target="#image-gallery">
+                    <img class="img-thumbnail" src="/img/posters/apple.png" data-target="#image-gallery" alt="heavy lift drone crew film ireland the turning">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a id="" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Danny Boyle's | 'Pages of the Sea' " data-image="/img/posters/Pages of the Sea.jpg" data-target="#image-gallery">
+                    <img class="img-thumbnail" src="/img/posters/Pages of the Sea.jpg" data-target="#image-gallery" alt="heavy lift drone crew film ireland the turning">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a id="" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - RedBull Racing " data-image="img/posters/Red Bull F1 2.jpg" data-target="#image-gallery">
+                    <img class="img-thumbnail" src="/img/posters/Red Bull F1 2.jpg" data-target="#image-gallery" alt="heavy lift drone crew film ireland the turning">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a id="" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - RedBull Cliff Diving " data-image="/img/posters/Red Bull Cliff Diving.jpg" data-target="#image-gallery">
+                    <img class="img-thumbnail" src="/img/posters/Red Bull Cliff Diving.jpg" data-target="#image-gallery" alt="heavy lift drone crew film ireland the turning">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">

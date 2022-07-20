@@ -22,6 +22,32 @@
   <h2 id="showreelAnchor">Showreels</h2>
 <div class="row">
 
+<div class="col-lg-4 col-md-12 mb-4">
+
+  <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body mb-0 p-0">
+
+          <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/676294199?h=fe838ba87e" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Showreel - 2021</h3>
+  <div id="showreel6" class="showreelimgs" data-toggle="modal" data-target="#modal6">
+  <i class="fas fa-play showplay"></i>
+  </div>
+</div>
 
 <div class="col-lg-4 col-md-12 mb-4">
 
@@ -144,8 +170,9 @@
         <div class="modal-body mb-0 p-0">
 
           <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/M-2V3lKZs6A?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/e-wje8VHPWs?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
+
           </div>
         </div>
 
@@ -164,31 +191,7 @@
 
 <!--**************-->
 
-<div class="col-lg-4 col-md-12 mb-4">
 
-  <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-body mb-0 p-0">
-
-          <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MDUSpaFyB7A?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-          </div>
-        </div>
-
-        <div class="modal-footer justify-content-center">
-          <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <h3>Snow Patrol Live</h3>
-  <div id="showreel6" class="showreelimgs" data-toggle="modal" data-target="#modal6">
-  <i class="fas fa-play showplay"></i>
-  </div>
-</div>
 <!--**************-->
 
 </div>
@@ -200,7 +203,7 @@
 
 <div class="container" id="stockInfo">
 <h2>Drone Stock Footage Library</h2>
-<p>CineCopters has been gathering drone stock footage of Belfast, Northern Ireland and all of Ireland for 10 years.   There are very few places on the island of Ireland that we haven't shot variations of angles, lens sizes, light effects and times of year including but limited to: <br><br><b>Belfast - Dublin - Londonderry - Derry - North Coast - Newcastle - Mourne Mountains, Wicklow Mountains and Cave Hill. </b><br><br>   We have everything from city scapes, rolling fields and crashing waves to land marks, government buildings and everything in between.  <br><br> We have a set price for one or two clips purchased but if you need a number of clips we are more than happy to work out a deal and will always try and work within your budget. <br><br><strong>If you already know what clips you want please fill out the form below with the timecodes and we will be in touch with you within a few hours with your download link. <br> Timecodes are located at the bottom left of each video - minutes : seconds : (frames<small> - Not required</small>).</strong>  <br><br>If you can't find what you're looking for or you're after something very specific just <a href="contact.php">get in touch</a> and we will be able to advise.</p>
+<p>CineCopters has been gathering drone stock footage of Belfast, Northern Ireland and all of Ireland for 10 years.   There are very few places on the island of Ireland that we haven't shot variations of angles, lens sizes, light effects and times of year including but limited to: <br><br><b>Belfast - Dublin - Londonderry - Derry - North Coast - Newcastle - Mourne Mountains, Wicklow Mountains and Cave Hill. </b><br><br>   We have everything from city scapes, rolling fields and crashing waves to land marks, government buildings and everything in between.  We have a set price for one or two clips purchased but if you need a number of clips we are more than happy to work out a deal and will always try and work within your budget. <br><br><strong>If you already know what clips you want please fill out the form below with the timecodes and we will be in touch with you within a few hours with your download link.  Timecodes are located at the bottom left of each video - minutes : seconds : (frames<small> - Not required</small>).</strong>  <br><br>If you can't find what you're looking for or you're after something very specific just <a href="contact.php">get in touch</a> and we will be able to advise.</p>
 
 <small id="warning">* Note -  We update each stock section regularly.   All new shots will be at the start of each reel.</small>
 
@@ -556,7 +559,7 @@
 <div id="contactAnchor"></div><!--CONTACT ANCHOR TAG-->
 
 <form id="stockRequestWrapper" method="post" action="stockForm.php">
-    <h3>Drone Stock Footage Request</h3>
+    <h3 style="margin-bottom: 20px;">Drone Stock Footage Request</h3>
   <div class="row">
     
     <div class="col-sm">

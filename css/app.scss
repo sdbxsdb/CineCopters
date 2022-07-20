@@ -249,7 +249,7 @@ header {
   color: white;
   display: inline-block;
   padding: 20px;
-  margin: 20px 0 0;
+  margin-top: 0;
 
   @media only screen and (max-width: 320px) {
     padding: 10px 6px;
@@ -606,7 +606,7 @@ hr {
 
 
   .imgContainer {
-    background-image: url(/img/vulcan5.png);
+    background-image: url(/img/gear.jpeg);
     background-position: center;
 
     h1 {
@@ -796,16 +796,16 @@ hr {
   }
   
   #panel5 {
-    background-image: url(/img/fpv1.jpg);
-    background-position: -50px;
+    background-image: url(/img/sicc2.jpeg);
+    background-position: -230px;
     @media only screen and (min-width: 1920px) {
       &:hover {
-        background-position: 0;
+        background-position: -80px;
       }
       }
       @media only screen and (max-width: 1217px) {
         &:hover {
-          background-position: 0px;
+          background-position: -80px;
         }
       }
   }
@@ -941,8 +941,9 @@ hr {
       }
 }
 #lighttether {
-  background-image: url(/img/cinewhoop.jpg);
+  background-image: url(/img/sicc.jpeg);
   background-attachment: fixed;
+  background-position: 0px -450px;
   background-size: cover;
   height: auto;
   @media only screen and (min-width: 1920px) {
@@ -1197,20 +1198,21 @@ img {
   background-image: url(/img/showreelimg8.png);
 }
 #showreel4 {
-  background-image: url(/img/redBullF.jpg);
+  background-image: url(/fpvthumbnail.jpeg);
   background-position: center;
 }
 #showreel5 {
-  background-image: url(/img/fpv.png);
-  background-position: center;
+  background-image: url(/fpvthumb2.jpeg);
+  background-position: bottom;
   background-size: 124%;
 }
 #showreel6 {
-  background-image: url(/img/snowPartol.jpg);
+  background-image: url(/2021reelThumb.jpeg);
   background-position: center;
 }
 
 #stockInfo {
+  margin-top: 60px;
   p {
     margin-bottom: 120px;
   }
@@ -1582,6 +1584,15 @@ img {
 }
 
 //** END OF CONTACT PAGE STYLING//
+
+
+
+//**CHRISTMAS STYLING//
+#christmas {
+  @media only screen and (max-width: 414px) {
+    top: 107px!important;
+    }
+}
 
 //OTHER SERVICES PAGE STYLING//
 
