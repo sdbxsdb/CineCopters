@@ -35,21 +35,22 @@
       <p><strong>Lightlift<br>Cinema</strong></p>
       <p><button id="lightliftBtn" class="btn">View Package</button></p>
     </div>
-    <div class="panel" id="panel4">
-      <p></p>
-      <p><strong>Vehicle<br>Mount</strong></p>
-      <p><button id="vehicleBtn" class="btn">View Package</button></p>
-    </div>
     <div class="panel" id="panel5">
       <p></p>
       <p><strong>FPV<br></strong></p>
       <p><button id="lighttetherBtn" class="btn">View Package</button></p>
     </div>
-    <div class="panel" id="panel6">
+    <div class="panel" id="panel4">
+      <p></p>
+      <p><strong>Vehicle<br>Mount</strong></p>
+      <p><button id="vehicleBtn" class="btn">View Package</button></p>
+    </div>
+    
+    <!-- <div class="panel" id="panel6">
       <p></p>
       <p><strong>Special<br>Systems</strong></p>
       <p><button id="specialsystemsBtn" class="btn">View Package</button></p>
-    </div>
+    </div> -->
   </div>
 
   <div id="smallRecce" class="row">
@@ -120,48 +121,24 @@
 
   <hr class="container">
 
-  <div id="carmount" class="row">
-    <div class="col-md lhs">Vehicle<br>Mount</div>
-    <div class="col rhs">Our custom built vehicle mount for Inspire 2 allows us to get fast, long and low shots of vehicles without the need for closing roads or limiting our distance.
-      <br><br>
-      The drone is fixed to the vibration isolator mount which can be a-fixed to any vehicle's bonnet, rear or roof for rock-solid pictures.
-      <br><br>
-      <strong>When booking the Lightlift Cinema Package - the Vehicle Mount Package is provided as standard FOC.</strong>
-      <br><br>
-      The Vehicle Mount package contains:
-
-      ​<ul>
-        <li>Inspire 2 w/ X7 Camera (Super 35mm Sensor)</li>
-        <li>Car mount kit</li>
-        <li>Land Rover Discovery – air suspension (normal driving at a slightly higher than normal angle) / Land Rover Defender (Offroad) / Audi A8 – air suspension (normal driving at a slightly lower than normal angle.)</li>
-        <li>Multiple in-vehicle monitors</li>
-        <li>16mm, 24mm, 35mm, 50mm Lenses</li>
-        <li>ND .3 – .6 – .9 – 1.2 – 1.5 – 1.8 – 2.1 – Circular Pola</li>
-        <li>HD Video downlink</li>
-        <li>Driver</li>
-        <li>Camera Op</li>
-        <li>All company licences and insurances (production company can be indemnified if required)</li>
-      </ul>
-      <br><br>
-      <p><a href="contact.php"><button class="btn">Enquire</button></a></p>
-    </div>
-  </div>
-
-  <hr class="container">
-
   <div id="lighttether" class="row">
     <div class="col-md lhs">FPV<br>(First Person View)</>
     </div>
     <div class="col rhs">
-      The beauty of FPV (or First Person View) is the ability to go almost anywhere, fit through almost any gap and get shots that could only every be achived before with the help of visual effects.<br><br><strong>Bank in the corners, fly through open windows and dive like a bird.</strong><br><br>CineCopters are the first company in Ireland to offer FPV drones to the Cinema &amp; Television industry commercially. <small>(Conditions apply)</small>.<br><br>
-
-      Our drones are miniscule but are ultra stable and can still reach speeds of 50mph while carrying cameras capable of shooting:
+      CineCopters are the first company in Ireland to offer FPV drones to the Cinema &amp; Television industry commercially.
+      <br><br>
+      Our FPV fleet includes:
+      
       <ul>
-        <li>4K - 60fps @ 100mbps</li>
-        <li>2.7K - 120fps @ 100mbps</li>
-        <li>1080 - 240fps</li>
-        <li>4K 360 VR Cameras</li>
+        <li>Small drones shooting 4K that can fly safely indoors and close to cast.</li>
+        <li>Small to medium sized drones used for chasing, diving, swooping while reaching speeds of 100mph+.</li>
+        <li>Heavy-lift drones to carry 6K cinema cameras with anamorphic lenses.</li>
+        <li>Heavy-lift, dual operation drones allowing the camera to be remotely operated while flying in FPV mode.</li>
       </ul>
+      
+        <br><br>
+       We provide fully stablised footage at no additional cost when shooting with the small or medium sized FPV drones.
+      
 
       <p id="examplesFPV"><a data-toggle="modal" data-target="#modal5"><button class="btn">Examples</button></a></p>
 
@@ -201,9 +178,40 @@
     </div>
   </div>
 
+  <div id="carmount" class="row">
+    <div class="col-md lhs">Vehicle<br>Mount</div>
+    <div class="col rhs">Our custom built vehicle mount for Inspire 2 allows us to get fast, long and low shots of vehicles without the need for closing roads or limiting our distance.
+      <br><br>
+      The drone is fixed to the vibration isolator mount which can be a-fixed to any vehicle's bonnet, rear or roof for rock-solid pictures.
+      <br><br>
+      <strong>When booking the Lightlift Cinema Package - the Vehicle Mount Package is provided as standard FOC.</strong>
+      <br><br>
+      The Vehicle Mount package contains:
+
+      ​<ul>
+        <li>Inspire 2 w/ X7 Camera (Super 35mm Sensor)</li>
+        <li>Car mount kit</li>
+        <li>Land Rover Discovery – air suspension (normal driving at a slightly higher than normal angle) / Land Rover Defender (Offroad) / Audi A8 – air suspension (normal driving at a slightly lower than normal angle.)</li>
+        <li>Multiple in-vehicle monitors</li>
+        <li>16mm, 24mm, 35mm, 50mm Lenses</li>
+        <li>ND .3 – .6 – .9 – 1.2 – 1.5 – 1.8 – 2.1 – Circular Pola</li>
+        <li>HD Video downlink</li>
+        <li>Driver</li>
+        <li>Camera Op</li>
+        <li>All company licences and insurances (production company can be indemnified if required)</li>
+      </ul>
+      <br><br>
+      <p><a href="contact.php"><button class="btn">Enquire</button></a></p>
+    </div>
+  </div>
+
   <hr class="container">
 
-  <div id="specialsystems" class="row">
+  
+
+  <hr class="container">
+
+  <!-- <div id="specialsystems" class="row">
     <div class="col-md lhs">Special<br>Systems</div>
     <div class="col rhs">Our specialist drone system is capable of flying in ANY weather conditions day or night for up to 35mins per battery set.
       <br><br>
@@ -222,9 +230,9 @@
       30hz Thermal Frame Rate
       <p><a href="contact.php"><button class="btn">Enquire</button></a></p>
     </div>
-  </div>
+  </div> -->
 
-  <hr class="container">
+  <!-- <hr class="container"> -->
 
 
   <!--Back to Top Button-->
