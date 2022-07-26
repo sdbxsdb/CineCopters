@@ -1156,6 +1156,12 @@ header #logo-main:hover {
   border-bottom: solid 1px grey;
 }
 
+@media only screen and (max-width: 576px) {
+  #cinecoptersEquipment .servicesIntro {
+    max-width: 95%;
+  }
+}
+
 #cinecoptersEquipment .servicesIntro ul {
   text-align: center;
   list-style: none;

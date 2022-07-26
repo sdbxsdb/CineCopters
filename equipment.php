@@ -20,6 +20,7 @@
 
   <div class="container servicesIntro">
     <strong>*NOTE -</strong>
+    <br><br>
     <p>When booking the <strong>Lightlift Cinema Package</strong> we include the:</p>
       <ul>
         <li><strong>Mavic 2 Pro</strong></li> 
