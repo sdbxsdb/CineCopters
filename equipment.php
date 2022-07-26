@@ -18,8 +18,20 @@
     </div>
   </div>
 
+  <div class="container servicesIntro">
+    <strong>*NOTE -</strong>
+    <p>When booking the <strong>Lightlift Cinema Package</strong> we include the:</p>
+      <ul>
+        <li><strong>Mavic 2 Pro</strong></li> 
+        <li><strong>FPV (First Person View) Drones</strong></li>
+        <li><strong>Vehicle Mount</strong></li>
+      </ul> 
+    <br>
+    <p>This gives you 3 drone packages for the price of one allowing you to completly cover your shoot from every direction.</p>
+  </div>
 
   <div class="panels">
+    
     <div class="panel" id="panel1">
       <p></p>
       <p><strong>Small<br> / Recce</strong></p>
