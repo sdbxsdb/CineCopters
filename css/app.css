@@ -1163,6 +1163,7 @@ header #logo-main:hover {
 }
 
 #cinecoptersEquipment .servicesIntro ul {
+  padding: 0;
   text-align: center;
   list-style: none;
 }
