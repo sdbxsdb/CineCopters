@@ -28,7 +28,7 @@
         <li><strong>Vehicle Mount</strong></li>
       </ul> 
     <br>
-    <p>This gives you 3 drone packages for the price of one allowing you to completly cover your shoot from every direction.</p>
+    <p>This gives you 3 drone packages for the price of one allowing you to completely cover your shoot from every direction.</p>
   </div>
 
   <div class="panels">
