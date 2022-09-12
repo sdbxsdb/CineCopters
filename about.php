@@ -13,11 +13,10 @@
             <div class="aboutText">
                 <p>CineCopters, founded in 2013, brings Belfast, Northern Ireland, Ireland and the UK a higher standard of aerial drone filming.
                     <br><br> ​
-                    One of the industry leaders and BBC preferred supplier in drone filming we bring together state-of-the-art light and heavy lift aerial drone technology, the latest digital 4K-8K RAW HD cinema cameras, zero delay HD video transmission, advanced gimbal technology and a group of highly dedicated professionals together with over 50 years' hands on film and television experience.
+                    One of the industry leaders and BBC preferred supplier in drone filming we bring together state-of-the-art light heavy and micro lift aerial drone technology, the latest digital 4K-8K RAW HD cinema cameras, zero delay HD video transmission, live OB capabilities and a group of highly dedicated professionals together with over 50 years' hands on film and television experience.
                     <br><br>
                     Our detailed knowledge in the entertainment, film, television, engineering and radio controlled world allows us to provide a new dimension for productions requiring a high-end look at an affordable price.
-                    <br><br><br>
-                    We know how this works, we make life easy.</p>
+                </p>
 
                 <div id="aboutBounceBtn" class="arrow bounce"><i class="fa fa-angle-down fa-3x" aria-hidden="true"></i></div>
             </div>
@@ -34,8 +33,68 @@
         <div class="row">
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a id="allToys" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - FPV Heavy-lift - Red Komodo" data-image="/img/sicc2.jpeg" data-target="#image-gallery">
+                        <img class="img-thumbnail" src="/img/sicc2.jpeg" alt="CineCopters - FPV Heavy-lift - Red Komodo">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a id="allToys" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - All the toys" data-image="/img/allgear.jpeg" data-target="#image-gallery">
+                        <img class="img-thumbnail" src="/img/allgear.jpeg" alt="CineCopters - All the toys">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a id="" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Red Bull Drifting" data-image="/img/redbulldrifting.jpeg" data-target="#image-gallery">
+                        <img class="img-thumbnail" src="/img/redbulldrifting.jpeg" alt="CineCopters - Red Bull Drifting">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a id="disco" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - FPV GoPro Hero 10" data-image="/img/fpv5inch.jpeg" data-target="#image-gallery">
+                        <img class="img-thumbnail" src="/img/fpv5inch.jpeg" alt="CineCopters - FPV GoPro Hero 10">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a id="disco" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Vehicle" data-image="/img/disco.jpeg" data-target="#image-gallery">
+                        <img class="img-thumbnail" src="/img/disco.jpeg" alt="CineCopters - Vehicle">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a id="heavylift2" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Inspire Cart" data-image="/img/inspirecart.jpeg" data-target="#image-gallery">
+                        <img class="img-thumbnail" src="/img/inspirecart.jpeg" alt="CineCopters - Inspire Cart">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a id="inside" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Inspire Interior Flight" data-image="/img/inspireinside.jpeg" data-target="#image-gallery">
+                        <img class="img-thumbnail" src="/img/inspireinside.jpeg" alt="CineCopters - Inspire Interior Flight">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a id="cliffDiving2" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Red Bull Cliff Diving" data-image="/img/redbullcliffdiving2.jpeg" data-target="#image-gallery">
+                        <img class="img-thumbnail" src="/img/redbullcliffdiving2.jpeg" alt="CineCopters - Red Bull Cliff Diving">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a id="lod6" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Inspire and Agito" data-image="/img/lod6.jpeg" data-target="#image-gallery">
+                        <img class="img-thumbnail" src="/img/lod6.jpeg" alt="CineCopters - Inspire and Agito">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a id="" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - FPV Inspire X7" data-image="/img/fpvheavy.jpeg" data-target="#image-gallery">
+                        <img class="img-thumbnail" src="/img/fpvheavy.jpeg" alt="CineCopters - FPV Inspire X7">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a id="heavylift2" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Alexa Mini Heavy-lift" data-image="/img/alexaminiheavy2.jpeg" data-target="#image-gallery">
+                        <img class="img-thumbnail" src="/img/alexaminiheavy2.jpeg" alt="CineCopters - Alexa Mini Heavy-lift">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a id="heavylift" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - Alexa Mini Heavy-lift" data-image="/img/alexaMiniHeavy-lift.jpeg" data-target="#image-gallery">
+                        <img class="img-thumbnail" src="/img/alexaMiniHeavy-lift.jpeg" alt="CineCopters - Alexa Mini Heavy-lift">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                     <a id="redbullHandset" class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="CineCopters - RedBull F1" data-image="/img/_DSC0133.jpg" data-target="#image-gallery">
-                        <img class="img-thumbnail" src="/img/_DSC0133.jpg" alt="Belfast RedBull F1 Drone Filming" alt="belfast drone crew redbull">
+                        <img class="img-thumbnail" src="/img/_DSC0133.jpg" alt="Belfast RedBull F1 Drone Filming">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">

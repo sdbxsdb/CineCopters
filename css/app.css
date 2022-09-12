@@ -3,23 +3,21 @@ html, body {
 }
 
 .btn {
-  background-color: #c20000;
+  background-color: rgb(194, 0, 0);
   border: solid 1px black;
   border-radius: 5px;
   color: white;
   margin: 10px;
 }
-
 .btn:hover {
   background-color: red;
   color: white;
-  border: solid 1px #770000;
+  border: solid 1px rgb(119, 0, 0);
 }
 
 .btn-success:focus {
   background-color: red !important;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.349) !important;
-          box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.349) !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.349) !important;
 }
 
 #backToTop {
@@ -29,7 +27,6 @@ html, body {
   border-radius: 100%;
   line-height: 20px;
   opacity: 0;
-  -webkit-transition: opacity 2s;
   transition: opacity 2s;
   position: fixed;
   bottom: 40px;
@@ -41,38 +38,28 @@ html, body {
 .imgContainer {
   background-size: cover;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 100vw;
   height: 580px;
   margin: -20px 0;
   padding: 60px 190px;
   display: flex;
   color: white;
-  -webkit-box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.6);
-          box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.75);
 }
-
 @media only screen and (max-width: 1180px) {
   .imgContainer {
     padding: 120px 50px 0;
   }
 }
-
 @media only screen and (max-width: 991px) {
   .imgContainer {
     height: auto;
     padding: 50px;
   }
 }
-
 @media only screen and (max-width: 320px) {
   .imgContainer {
     padding: 5px;
@@ -83,7 +70,7 @@ html, body {
   margin-bottom: 16px;
 }
 
-input[type="time"]::-webkit-calendar-picker-indicator {
+input[type=time]::-webkit-calendar-picker-indicator {
   background: none;
   width: auto;
 }
@@ -122,34 +109,27 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   40% {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
+    transform: translateY(-30px);
   }
   60% {
-    -webkit-transform: translateY(-15px);
-            transform: translateY(-15px);
+    transform: translateY(-15px);
   }
 }
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   40% {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
+    transform: translateY(-30px);
   }
   60% {
-    -webkit-transform: translateY(-15px);
-            transform: translateY(-15px);
+    transform: translateY(-15px);
   }
 }
-
 .arrow {
   position: relative;
   bottom: 0px;
@@ -159,7 +139,6 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   width: 60px;
   height: 80px;
 }
-
 .arrow:hover {
   cursor: pointer;
 }
@@ -172,8 +151,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 #navBgImg {
   background-image: url(/img/posters/showreelimages.jpg);
   background-size: contain;
-  -webkit-box-shadow: inset 0px 0px 300px 200px rgba(0, 0, 0, 0.5);
-          box-shadow: inset 0px 0px 300px 200px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 300px 200px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
 }
 
@@ -181,16 +159,13 @@ header #logoWrapper {
   width: 100vw;
   padding: 20px 0 0;
 }
-
 header #logo-main {
   display: block;
   margin: 0px auto;
 }
-
 header #logo-main:hover {
   cursor: pointer;
 }
-
 @media only screen and (max-width: 585px) {
   header #logo-main {
     width: 90%;
@@ -202,44 +177,35 @@ header #logo-main:hover {
   padding: 0;
   text-align: center;
 }
-
 #navbarWrapper .navbar-toggler {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   margin: 0 auto;
 }
-
 #navbarWrapper .navbar-toggler .navbar-toggler-icon {
   display: block;
   margin: 8px;
   height: 2px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
-
 #navbarWrapper li {
   margin: 0 10px;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
 #navbarWrapper li a {
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 10px 10px;
 }
-
 #navbarWrapper li a:hover {
-  color: red;
-  -webkit-transform: scale(1.04) a;
-          transform: scale(1.04) a;
-  -webkit-transition: All 0.2s ease-in-out;
+  color: rgb(255, 0, 0);
+  transform: scale(1.04) a;
   transition: All 0.2s ease-in-out;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
-
 #navbarWrapper li a:focus-within {
-  color: #b40000;
+  color: rgb(180, 0, 0);
 }
-
 #navbarWrapper li a:active {
-  color: #b40000;
+  color: rgb(180, 0, 0);
 }
 
 .socialLogos {
@@ -247,7 +213,6 @@ header #logo-main:hover {
   text-align: center;
   padding: 0px 0 20px;
 }
-
 .socialLogos img {
   margin: 0 5px;
   border-radius: 5px;
@@ -255,87 +220,73 @@ header #logo-main:hover {
 
 #footerWrapper {
   width: 100vw;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
   display: inline-block;
   padding: 20px;
   margin-top: 0;
 }
-
 @media only screen and (max-width: 320px) {
   #footerWrapper {
     padding: 10px 6px;
   }
 }
-
 #footerWrapper .footerNumberBR {
   display: none;
 }
-
 @media only screen and (max-width: 414px) {
   #footerWrapper .footerNumberBR {
     display: inline;
   }
 }
-
 #footerWrapper #footerHomeLink {
   color: white;
   text-decoration: none;
 }
-
 @media only screen and (max-width: 1200px) {
   #footerWrapper #bottomTag {
     width: 108px;
   }
 }
-
 @media only screen and (max-width: 414px) {
   #footerWrapper #footerNameCopyWrite {
     margin-top: 80px;
   }
 }
-
 #footerWrapper #contactInfo {
   text-align: right;
 }
-
 @media only screen and (max-width: 1200px) {
   #footerWrapper #contactInfo {
     max-width: 330px;
   }
 }
-
 @media only screen and (max-width: 534px) {
   #footerWrapper #contactInfo {
     font-size: 12px;
   }
 }
-
 @media only screen and (max-width: 1200px) {
   #footerWrapper #contactInfo {
     margin-left: 100px;
   }
 }
-
 @media only screen and (max-width: 320px) {
   #footerWrapper #contactInfo {
     word-break: break-all;
   }
 }
-
 @media only screen and (max-width: 770px) {
   #footerWrapper #contactInfo {
     margin-left: 0;
     word-break: break-all;
   }
 }
-
 #footerWrapper #contactInfo a {
   color: white;
-  -webkit-text-decoration: underline #b9b9b9;
-          text-decoration: underline #b9b9b9;
+  -webkit-text-decoration: underline rgb(185, 185, 185);
+          text-decoration: underline rgb(185, 185, 185);
 }
-
 #footerWrapper h4 {
   border-bottom: solid 2px red;
   width: 20%;
@@ -345,107 +296,122 @@ header #logo-main:hover {
 #cinecoptersHome {
   margin-top: -20px;
 }
-
 #cinecoptersHome #headerbox {
   max-height: calc(100vh - 200px);
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 @media only screen and (max-width: 414px) {
   #cinecoptersHome #headerbox {
     max-height: calc(100vh - 180px);
   }
 }
-
 #cinecoptersHome #headerbox video {
   min-height: 100vh;
   min-width: 100vw;
 }
-
 #cinecoptersHome #firstInfo {
   text-align: center;
   margin: 60px auto;
 }
-
 #cinecoptersHome #firstInfo h1 {
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
   font-size: 48px;
   text-transform: uppercase;
   letter-spacing: 8px;
   margin-bottom: 40px;
 }
-
+#cinecoptersHome #firstInfo h2 {
+  font-family: "Kanit", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#cinecoptersHome #firstInfo ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 0;
+}
+#cinecoptersHome #firstInfo ul li {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 15px;
+  font-size: 20px;
+}
+#cinecoptersHome #firstInfo ul li:before {
+  content: "  ";
+  margin: 0 5px;
+}
+#cinecoptersHome #firstInfo ul li:after {
+  content: "  ";
+  margin: 0 5px;
+}
+#cinecoptersHome #firstInfo .quoteLeft {
+  text-align: left;
+  margin: 0px;
+}
+#cinecoptersHome #firstInfo .quoteRight {
+  text-align: right;
+  margin: 0px;
+}
 #cinecoptersHome #lastInfo {
   text-align: center;
 }
-
 #cinecoptersHome #lastInfo h2 {
   text-align: center;
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
   text-transform: uppercase;
-  margin: 40px;
+  margin: 0px;
   word-spacing: 10px;
 }
-
 #cinecoptersHome #lastInfo .card-group {
   text-align: left;
   margin-left: 0;
 }
-
 #cinecoptersHome #lastInfo .card {
   height: auto;
   border: none;
   padding: 5px;
   margin: 10px;
-  background-color: white;
-  -webkit-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
 }
-
 #cinecoptersHome #lastInfo .card:hover {
-  -webkit-transform: scale(1.01);
-          transform: scale(1.01);
+  transform: scale(1.01);
 }
-
 @media only screen and (max-width: 320px) {
   #cinecoptersHome #lastInfo .card {
     margin: 0;
   }
 }
-
 #cinecoptersHome #lastInfo .card hr {
   height: 0.5px;
-  background-color: #c9c9c9;
+  background-color: rgb(201, 201, 201);
   border-radius: 10px;
   margin: 20px 0;
 }
-
 #cinecoptersHome #lastInfo hr {
   margin: 40px 0;
 }
-
 #cinecoptersHome #riddley {
   text-align: center;
   font-size: 1.5em;
 }
-
 #cinecoptersHome #riddley h5 {
   font-weight: bolder;
 }
-
 #cinecoptersHome #badlands {
   text-align: center;
 }
-
 #cinecoptersHome a {
   color: black !important;
   text-decoration: none;
@@ -456,42 +422,34 @@ header #logo-main:hover {
   background-position: center;
   padding-bottom: 20px;
 }
-
 @media only screen and (max-width: 414px) {
   #cinecoptersAbout .imgContainer {
     padding: 50px 20px;
   }
 }
-
 #cinecoptersAbout .imgContainer h1 {
   font-size: 2em;
   margin-bottom: 20px;
 }
-
 #cinecoptersAbout .imgContainer p {
-  text-shadow: 20px 0px 20px black;
+  text-shadow: 20px 0px 20px rgb(0, 0, 0);
   font-size: 18px;
   line-height: 26px;
+  word-spacing: 2px;
 }
-
 #cinecoptersAbout .btn:focus, #cinecoptersAbout .btn:active, #cinecoptersAbout button:focus, #cinecoptersAbout button:active {
   outline: none !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
-
 #cinecoptersAbout #imgGalleryWrapper {
   margin-top: 60px;
 }
-
 #cinecoptersAbout #image-gallery .modal-footer {
   display: block;
 }
-
 #cinecoptersAbout .row {
   margin: 0;
 }
-
 #cinecoptersAbout .thumb {
   margin: 0;
   padding: 0;
@@ -499,123 +457,115 @@ header #logo-main:hover {
   max-height: 130px;
   overflow: hidden;
 }
-
 @media only screen and (max-width: 534px) {
   #cinecoptersAbout .thumb {
     max-height: 100px !important;
   }
 }
-
 @media only screen and (max-width: 534px) and (max-width: 371px) {
   #cinecoptersAbout .thumb {
     width: 100% !important;
   }
 }
-
 #cinecoptersAbout .thumb:hover {
   cursor: pointer;
-  -webkit-transform: scale(0.98);
-          transform: scale(0.98);
+  transform: scale(0.98);
 }
-
 #cinecoptersAbout img {
   padding: 0;
   margin: 0;
   border: none;
   border-radius: 0;
 }
-
 #cinecoptersAbout .modal-content {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   border-radius: 20px;
 }
-
 #cinecoptersAbout .modal-content span {
   color: white;
 }
-
 #cinecoptersAbout .thumbnail {
   position: relative;
   bottom: 55px;
 }
-
 @media only screen and (max-width: 1200px) {
   #cinecoptersAbout .thumbnail {
     bottom: 0px !important;
   }
 }
-
 @media only screen and (max-width: 767px) {
   #cinecoptersAbout .thumbnail {
     bottom: 150px !important;
   }
 }
-
 @media only screen and (max-width: 500px) {
   #cinecoptersAbout .thumbnail {
     bottom: 0 !important;
   }
 }
-
 #cinecoptersAbout #heavyTrolley {
   bottom: 40px;
 }
-
 #cinecoptersAbout #mercImg {
   bottom: 15px;
 }
-
 #cinecoptersAbout #cliffDivingImg {
   bottom: 0;
 }
-
 #cinecoptersAbout #vulcan3 {
   bottom: 10px;
 }
-
 #cinecoptersAbout #oldOcto {
   bottom: 10px;
 }
-
 #cinecoptersAbout #handsetImg {
   bottom: 255px;
 }
-
 #cinecoptersAbout #inspireRoofImg {
   bottom: 140px;
 }
-
 #cinecoptersAbout #inspireWheelsImg {
   bottom: 220px;
 }
-
 #cinecoptersAbout #samlukeImg {
   bottom: 0px;
 }
-
 #cinecoptersAbout #tommyjackImg {
   bottom: 50px;
 }
-
 #cinecoptersAbout #inspirethreesixty {
   bottom: 75px;
 }
-
+#cinecoptersAbout #cliffDiving2 {
+  bottom: 0px;
+}
+#cinecoptersAbout #heavylift2 {
+  bottom: 160px;
+}
+#cinecoptersAbout #allToys {
+  bottom: 0px;
+}
+#cinecoptersAbout #disco {
+  bottom: 0px;
+}
+#cinecoptersAbout #lod6 {
+  bottom: 10px;
+}
+#cinecoptersAbout #inside {
+  bottom: 140px;
+}
 #cinecoptersAbout #qualis {
   text-align: center;
   margin-top: 100px;
 }
-
 #cinecoptersAbout #qualis h2 {
   margin: 40px 0;
 }
-
 #cinecoptersAbout #qualis p {
   font-size: 18px;
   line-height: 26px;
 }
-
 #cinecoptersAbout #caaLogo {
   margin: 60px auto;
   width: 500px;
@@ -624,7 +574,6 @@ header #logo-main:hover {
   background-repeat: no-repeat;
   background-size: contain;
 }
-
 @media only screen and (max-width: 990px) {
   #cinecoptersAbout #caaLogo {
     width: 250px;
@@ -636,70 +585,47 @@ header #logo-main:hover {
 #cinecoptersEquipment hr {
   display: none;
 }
-
 #cinecoptersEquipment .imgContainer {
   background-image: url(/img/gear.jpeg);
   background-position: center;
 }
-
 #cinecoptersEquipment .imgContainer h1 {
   font-size: 2em;
   margin-bottom: 80px;
 }
-
 #cinecoptersEquipment .imgContainer p {
-  text-shadow: 0px 0px 20px black;
+  text-shadow: 0px 0px 20px rgb(0, 0, 0);
   font-size: 18px;
   line-height: 26px;
 }
-
 #cinecoptersEquipment .panels {
   margin: 80px 50px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   overflow: hidden;
 }
-
 @media only screen and (max-width: 620px) {
   #cinecoptersEquipment .panels {
     margin: 40px 10px;
   }
 }
-
 #cinecoptersEquipment .panel {
   background-size: cover;
   height: 500px;
   max-height: 1000px;
   min-width: 186.45px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  flex: 1;
+  flex-direction: column;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-family: Helvetica, sans-serif;
   font-size: 2em;
   text-align: center;
   text-transform: uppercase;
   color: white;
-  text-shadow: 2px 2px 2px #969696;
-  -webkit-transition: font-size 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11), background 0.2s, -webkit-box-flex 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11);
-  transition: font-size 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11), background 0.2s, -webkit-box-flex 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11);
+  text-shadow: 2px 2px 2px rgb(150, 150, 150);
   transition: font-size 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11), flex 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11), background 0.2s;
-  transition: font-size 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11), flex 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11), background 0.2s, -webkit-box-flex 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11), -ms-flex 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11);
 }
-
 @media only screen and (max-width: 1217px) {
   #cinecoptersEquipment .panel {
     font-size: 1.5em;
@@ -707,7 +633,6 @@ header #logo-main:hover {
     max-height: 400px;
   }
 }
-
 @media only screen and (max-width: 830px) {
   #cinecoptersEquipment .panel {
     font-size: 1.1em;
@@ -715,7 +640,6 @@ header #logo-main:hover {
     max-height: 300px;
   }
 }
-
 @media only screen and (max-width: 620px) {
   #cinecoptersEquipment .panel {
     font-size: 0.8em;
@@ -723,7 +647,6 @@ header #logo-main:hover {
     max-height: 250px;
   }
 }
-
 @media only screen and (max-width: 414px) {
   #cinecoptersEquipment .panel {
     font-size: 0.6em;
@@ -731,7 +654,6 @@ header #logo-main:hover {
     max-height: 250px;
   }
 }
-
 @media only screen and (max-width: 320px) {
   #cinecoptersEquipment .panel .btn {
     font-size: 1.2em !important;
@@ -740,61 +662,36 @@ header #logo-main:hover {
     font-size: 0.5em !important;
   }
 }
-
 #cinecoptersEquipment .panel strong {
   font-size: 1em;
 }
-
 #cinecoptersEquipment .panelShadow {
-  -webkit-box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.5);
-          box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.5);
 }
-
 #cinecoptersEquipment .panel > * {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  flex: 1 0 auto;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition: -webkit-transform .5s;
-  transition: -webkit-transform .5s;
-  transition: transform .5s;
-  transition: transform .5s, -webkit-transform .5s;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s;
 }
-
 #cinecoptersEquipment .panel > :first-child {
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  transform: translateY(-100%);
 }
-
 #cinecoptersEquipment .panel.openActive > :first-child {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
 }
-
 #cinecoptersEquipment .panel > :last-child {
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  transform: translateY(100%);
 }
-
 #cinecoptersEquipment .panel.openActive > :last-child {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
 }
-
 #cinecoptersEquipment #panel1 {
   background-image: url(/img/mavic.jpg);
   background-position: -450px;
   background-size: cover;
 }
-
 @media only screen and (max-width: 1920px) {
   #cinecoptersEquipment #panel1 {
     background-position: -400px;
@@ -803,53 +700,44 @@ header #logo-main:hover {
     background-position: 0;
   }
 }
-
 @media only screen and (max-width: 1920px) and (max-width: 1448px) {
   #cinecoptersEquipment #panel1:hover {
     background-position: -250px;
   }
 }
-
 @media only screen and (max-width: 1920px) and (max-width: 1217px) {
   #cinecoptersEquipment #panel1:hover {
     background-position: -100px;
   }
 }
-
 @media only screen and (max-width: 1920px) and (max-width: 1040px) {
   #cinecoptersEquipment #panel1:hover {
     background-position: -220px;
   }
 }
-
 @media only screen and (max-width: 1920px) and (max-width: 500px) {
   #cinecoptersEquipment #panel1 {
     background-position: -240px;
   }
 }
-
 #cinecoptersEquipment #panel2 {
   background-image: url(/img/vulcan5.png);
   background-position: center;
 }
-
 #cinecoptersEquipment #panel3 {
   background-image: url(/img/64224667_2092714990827434_1767709544332394496_n.jpg);
   background-position: -200px;
 }
-
 @media only screen and (min-width: 1920px) {
   #cinecoptersEquipment #panel3:hover {
     background-position: 0;
   }
 }
-
 @media only screen and (max-width: 1217px) {
   #cinecoptersEquipment #panel3:hover {
     background-position: 0px;
   }
 }
-
 @media only screen and (max-width: 415px) {
   #cinecoptersEquipment #panel3 {
     background-position: -120px;
@@ -858,59 +746,47 @@ header #logo-main:hover {
     background-position: -100px;
   }
 }
-
 #cinecoptersEquipment #panel4 {
   background-image: url(/img/carmount2.jpg);
   background-position: -100px;
 }
-
 @media only screen and (min-width: 1920px) {
   #cinecoptersEquipment #panel4 {
     background-position: 0px;
   }
 }
-
 @media only screen and (max-width: 1217px) {
   #cinecoptersEquipment #panel4:hover {
     background-position: 0px;
   }
 }
-
 @media only screen and (max-width: 500px) {
   #cinecoptersEquipment #panel4 {
     background-position: -100px;
   }
 }
-
 #cinecoptersEquipment #panel5 {
   background-image: url(/img/sicc2.jpeg);
   background-position: -230px;
 }
-
 @media only screen and (min-width: 1920px) {
   #cinecoptersEquipment #panel5:hover {
     background-position: -80px;
   }
 }
-
 @media only screen and (max-width: 1217px) {
   #cinecoptersEquipment #panel5:hover {
     background-position: -80px;
   }
 }
-
 #cinecoptersEquipment #panel6 {
   background-image: url(/img/flir.jpg);
   background-position: center;
 }
-
 #cinecoptersEquipment .panel.open {
   font-size: 42px;
-  -webkit-box-flex: 5;
-      -ms-flex: 5;
-          flex: 5;
+  flex: 5;
 }
-
 @media only screen and (max-width: 620px) {
   #cinecoptersEquipment .panel.open {
     font-size: 15px;
@@ -920,7 +796,6 @@ header #logo-main:hover {
     width: 70px;
   }
 }
-
 @media only screen and (max-width: 620px) and (max-width: 320px) {
   #cinecoptersEquipment .panel.open .btn {
     width: 40px;
@@ -928,72 +803,49 @@ header #logo-main:hover {
     font-size: 8px !important;
   }
 }
-
 #cinecoptersEquipment .row {
   margin: 0 0;
 }
-
 #cinecoptersEquipment .lhs {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: 'Kanit', sans-serif;
+  align-items: center;
+  justify-content: center;
+  font-family: "Kanit", sans-serif;
   font-size: 3em;
   color: white;
-  text-shadow: 2px 2px 2px black;
-  -webkit-box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.5);
-          box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.5);
 }
-
 @media only screen and (max-width: 500px) {
   #cinecoptersEquipment .lhs {
     text-align: center !important;
   }
 }
-
 #cinecoptersEquipment .rhs {
-  -webkit-box-shadow: inset 0px 0px 400px 400px rgba(255, 255, 255, 0.8);
-          box-shadow: inset 0px 0px 400px 400px rgba(255, 255, 255, 0.8);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-shadow: inset 0px 0px 400px 400px rgba(255, 255, 255, 0.8);
   display: flex;
   padding: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-size: 24px;
   font-weight: 300;
   display: block;
 }
-
 @media only screen and (max-width: 638px) {
   #cinecoptersEquipment .rhs {
     font-size: 1em;
   }
 }
-
 #cinecoptersEquipment .rhs p {
   margin-top: 40px;
   text-align: center;
 }
-
 #cinecoptersEquipment .rhs p button {
   font-size: 0.9em;
 }
-
 #cinecoptersEquipment .rhs li {
   margin-top: 10px;
 }
-
 #cinecoptersEquipment #smallRecce {
   margin-top: 200px;
   background-image: url(/img/reccebus.jpg);
@@ -1001,59 +853,50 @@ header #logo-main:hover {
   background-size: cover;
   height: auto;
 }
-
 @media only screen and (min-width: 1920px) {
   #cinecoptersEquipment #smallRecce {
     background-position: 0 -100px;
   }
 }
-
 @media only screen and (max-width: 500px) {
   #cinecoptersEquipment #smallRecce {
     margin-top: 50px;
   }
 }
-
 @media only screen and (max-width: 414px) {
   #cinecoptersEquipment #smallRecce {
     background-attachment: scroll;
   }
 }
-
 #cinecoptersEquipment #heavylift {
   background-image: url(/img/vulcan5.png);
   background-attachment: fixed;
   background-size: cover;
   height: auto;
 }
-
 @media only screen and (min-width: 1920px) {
   #cinecoptersEquipment #heavylift {
     background-position: 0 -200px;
   }
 }
-
 @media only screen and (max-width: 415px) {
   #cinecoptersEquipment #heavylift {
     background-attachment: scroll;
     background-position: -650px;
   }
 }
-
 #cinecoptersEquipment #lightlift {
   background-image: url(/img/lightlift.jpg);
   background-attachment: fixed;
   background-size: cover;
   height: auto;
 }
-
 @media only screen and (max-width: 415px) {
   #cinecoptersEquipment #lightlift {
     background-attachment: scroll;
     background-position: -350px;
   }
 }
-
 #cinecoptersEquipment #carmount {
   background-image: url(/img/carmount2.jpg);
   background-attachment: fixed;
@@ -1061,20 +904,17 @@ header #logo-main:hover {
   background-position: 0 -50px;
   height: auto;
 }
-
 @media only screen and (min-width: 1920px) {
   #cinecoptersEquipment #carmount {
     background-position: 0 -100px;
   }
 }
-
 @media only screen and (max-width: 415px) {
   #cinecoptersEquipment #carmount {
     background-attachment: scroll;
     background-position: -400px;
   }
 }
-
 #cinecoptersEquipment #lighttether {
   background-image: url(/img/sicc.jpeg);
   background-attachment: fixed;
@@ -1082,97 +922,80 @@ header #logo-main:hover {
   background-size: cover;
   height: auto;
 }
-
 @media only screen and (min-width: 1920px) {
   #cinecoptersEquipment #lighttether {
     background-position: 0 -150px;
   }
 }
-
 @media only screen and (max-width: 415px) {
   #cinecoptersEquipment #lighttether {
     background-attachment: scroll;
     background-position: -350px;
   }
 }
-
 #cinecoptersEquipment #specialsystems {
   background-image: url(/img/m200.jpg);
   background-attachment: fixed;
   background-size: cover;
   height: auto;
 }
-
 @media only screen and (min-width: 1920px) {
   #cinecoptersEquipment #specialsystems {
     background-position: 0 -150px;
   }
 }
-
 @media only screen and (max-width: 415px) {
   #cinecoptersEquipment #specialsystems {
     background-attachment: scroll;
     background-position: -450px;
   }
 }
-
 #cinecoptersEquipment .modal-lg {
   max-width: 70%;
 }
-
 @media only screen and (max-width: 1700px) {
   #cinecoptersEquipment .modal-lg {
     max-width: 85%;
   }
 }
-
 @media only screen and (max-width: 414px) {
   #cinecoptersEquipment .modal-lg {
     max-width: 95%;
-    -webkit-transform: translate(0%, 50%);
-            transform: translate(0%, 50%);
+    transform: translate(0%, 50%);
   }
 }
-
 @media only screen and (min-width: 1911px) {
   #cinecoptersEquipment .modalStock {
     max-width: 62% !important;
   }
 }
-
 #cinecoptersEquipment .modalStock h5 {
   background-color: black;
   padding: 5px;
 }
-
 #cinecoptersEquipment .modal-footer, #cinecoptersEquipment .modal-content {
   background-color: rgba(0, 0, 0, 0.349);
 }
-
 #cinecoptersEquipment .servicesIntro {
   margin-top: 85px;
   padding: 20px 0;
   border-top: solid 1px grey;
   border-bottom: solid 1px grey;
 }
-
 @media only screen and (max-width: 576px) {
   #cinecoptersEquipment .servicesIntro {
     max-width: 95%;
   }
 }
-
 #cinecoptersEquipment .servicesIntro ul {
   padding: 0;
   text-align: center;
   list-style: none;
 }
-
 #cinecoptersEquipment .servicesIntro ul li {
   font-weight: bold;
   font-size: 20px;
 }
-
 #cinecoptersEquipment .servicesIntro p {
   text-align: center;
   font-size: 20px;
@@ -1183,31 +1006,25 @@ header #logo-main:hover {
   background-image: url(/img/merc.jpg);
   background-position: bottom;
 }
-
 #cinecoptersClients .imgContainer h1 {
   font-size: 2em;
   margin-bottom: 80px;
 }
-
 #cinecoptersClients .imgContainer p {
-  text-shadow: 0px 0px 20px black;
+  text-shadow: 0px 0px 20px rgb(0, 0, 0);
   font-size: 18px;
   line-height: 26px;
 }
-
 #cinecoptersClients #imgGalleryWrapper {
   margin: 120px auto;
 }
-
 #cinecoptersClients #image-gallery .modal-footer {
   display: block;
 }
-
 #cinecoptersClients #image-gallery-image {
   max-height: 550px;
   width: auto;
 }
-
 #cinecoptersClients .img-thumbnail {
   height: 450px;
   width: 286px;
@@ -1216,53 +1033,44 @@ header #logo-main:hover {
   position: relative;
   bottom: -55px;
 }
-
 #cinecoptersClients .thumb {
   margin: 0;
   padding: 0;
   max-height: 425px;
   overflow: hidden;
 }
-
 @media only screen and (max-width: 767px) {
   #cinecoptersClients .thumb {
     max-width: 50%;
   }
 }
-
 @media only screen and (max-width: 320px) {
   #cinecoptersClients .thumb {
     max-width: 50%;
   }
 }
-
 #cinecoptersClients .thumb:hover {
   border: solid 2px white;
 }
-
 #cinecoptersClients img {
   padding: 0;
   margin: 0;
   border: none;
   border-radius: 0;
 }
-
 #cinecoptersClients .modal-content {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   border-radius: 20px;
   text-align: center;
 }
-
 #cinecoptersClients .modal-content span {
   color: white;
 }
-
 #cinecoptersClients .thumbnail {
   position: relative;
   bottom: 55px;
 }
-
 @media only screen and (max-width: 415px) {
   #cinecoptersClients .img-responsive {
     max-width: 85%;
@@ -1272,176 +1080,138 @@ header #logo-main:hover {
 #cinecoptersShowreel {
   text-align: center;
 }
-
 #cinecoptersShowreel h1 {
   font-size: 2em;
   text-align: center;
   margin: 80px 0;
 }
-
 #cinecoptersShowreel .imgContainer {
   background-image: url(/img/badlandshorses.png);
   background-position: left;
   margin-bottom: 60px;
 }
-
 #cinecoptersShowreel .imgContainer h2 {
   margin-bottom: 80px;
 }
-
 #cinecoptersShowreel .imgContainer p {
-  text-shadow: 0px 0px 20px black;
+  text-shadow: 0px 0px 20px rgb(0, 0, 0);
   font-size: 18px;
   line-height: 26px;
 }
-
 #cinecoptersShowreel h3 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 40px;
 }
-
 #cinecoptersShowreel .modal {
   outline: solid 1px red;
 }
-
 #cinecoptersShowreel .modal-lg {
   max-width: 70%;
 }
-
 @media only screen and (max-width: 1700px) {
   #cinecoptersShowreel .modal-lg {
     max-width: 85%;
   }
 }
-
 @media only screen and (max-width: 414px) {
   #cinecoptersShowreel .modal-lg {
     max-width: 95%;
-    -webkit-transform: translate(0%, 50%);
-            transform: translate(0%, 50%);
+    transform: translate(0%, 50%);
   }
 }
-
 @media only screen and (min-width: 1911px) {
   #cinecoptersShowreel .modalStock {
     max-width: 62% !important;
   }
 }
-
 #cinecoptersShowreel .modalStock h5 {
   background-color: black;
   padding: 5px;
 }
-
 #cinecoptersShowreel .modal-footer, #cinecoptersShowreel .modal-content {
   background-color: rgba(0, 0, 0, 0.349);
 }
-
 #cinecoptersShowreel .showreelimgs {
   background-size: cover;
   max-width: 350px;
   height: 149.92px;
   border-radius: 5px;
 }
-
 #cinecoptersShowreel .showreelimgs:hover {
-  -webkit-box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
-          box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
+  box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
 }
-
 #cinecoptersShowreel .showreelimgs:hover:hover {
   cursor: pointer;
 }
-
 #cinecoptersShowreel .showreelimgs:hover i {
   display: block;
 }
-
 #cinecoptersShowreel .showreelimgs:hover i:hover {
   cursor: pointer;
 }
-
 @media only screen and (max-width: 996px) {
   #cinecoptersShowreel .showreelimgs {
     margin: 0 auto;
   }
 }
-
 #cinecoptersShowreel #showreel1 {
   background-image: url(/img/showreelimg.png);
 }
-
 #cinecoptersShowreel #showreel2 {
   background-image: url(/img/showreelimg6.png);
 }
-
 #cinecoptersShowreel #showreel3 {
   background-image: url(/img/showreelimg8.png);
 }
-
 #cinecoptersShowreel #showreel4 {
   background-image: url(/fpvthumbnail.jpeg);
   background-position: center;
 }
-
 #cinecoptersShowreel #showreel5 {
   background-image: url(/fpvthumb2.jpeg);
   background-position: bottom;
   background-size: 124%;
 }
-
 #cinecoptersShowreel #showreel6 {
   background-image: url(/2021reelThumb.jpeg);
   background-position: center;
 }
-
 #cinecoptersShowreel #stockInfo {
   margin-top: 60px;
 }
-
 #cinecoptersShowreel #stockInfo p {
   margin-bottom: 120px;
 }
-
 #cinecoptersShowreel #stockInfo #warning {
-  color: #8f8f8f;
+  color: rgb(143, 143, 143);
 }
-
 #cinecoptersShowreel .carouselImg {
   max-width: 350px;
   height: 149.92px;
   border-radius: 5px;
 }
-
 #cinecoptersShowreel .carouselImg:hover {
   cursor: pointer;
-  -webkit-box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
-          box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
+  box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
 }
-
 #cinecoptersShowreel .hoverDark {
-  -webkit-box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
-          box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
+  box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
 }
-
 #cinecoptersShowreel .carouselWrapper {
   border-radius: 5px;
   overflow: hidden;
 }
-
 #cinecoptersShowreel .carouselWrapper:hover i {
   display: block;
   cursor: pointer;
 }
-
 #cinecoptersShowreel .carousel-item {
   background-size: cover;
   max-width: 350px;
   height: 149.92px;
   border-radius: 5px;
 }
-
 #cinecoptersShowreel .fa-play {
   color: white;
   font-size: 36px;
@@ -1449,238 +1219,182 @@ header #logo-main:hover {
   position: absolute;
   top: 64%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   display: none;
 }
-
 #cinecoptersShowreel .fa-play:hover {
   color: red;
   font-size: 40px;
 }
-
 @media only screen and (min-width: 991px) {
   #cinecoptersShowreel #stockfootage6 {
     position: relative;
     width: 100%;
     left: 50%;
-    -webkit-transform: translate(-50%);
-            transform: translate(-50%);
+    transform: translate(-50%);
   }
 }
-
 #cinecoptersShowreel #miscPlay {
   padding-bottom: 15%;
 }
-
 #cinecoptersShowreel #belfastCaro1 {
   background-image: url(/img/belfastcitycopy.jpg);
   background-position: center;
 }
-
 #cinecoptersShowreel #belfastCaro2 {
   background-image: url(/img/belfastcityhall.jpg);
 }
-
 #cinecoptersShowreel #belfastCaro3 {
   background-image: url(/img/europahotel.jpg);
 }
-
 #cinecoptersShowreel #belfastCaro4 {
   background-image: url(/img/stockImgs/Belfast4.jpg);
 }
-
 #cinecoptersShowreel #belfastCaro5 {
   background-image: url(/img/stockImgs/Belfast5.jpg);
 }
-
 #cinecoptersShowreel #belfastCaro8 {
   background-image: url(/img/stockImgs/Belfast11.jpg);
 }
-
 #cinecoptersShowreel #belfastCaro9 {
   background-image: url(/img/stockImgs/Belfast15.jpg);
 }
-
 #cinecoptersShowreel #belfastCaro10 {
   background-image: url(/img/stockImgs/Belfast16.jpg);
 }
-
 #cinecoptersShowreel #belfastCaro11 {
   background-image: url(/img/stockImgs/Belfast17.jpg);
 }
-
 #cinecoptersShowreel #belfastCaro12 {
   background-image: url(/img/stockImgs/Belfast18.jpg);
 }
-
 #cinecoptersShowreel #derryCaro3 {
   background-image: url(/img/stockimg5.png);
 }
-
 #cinecoptersShowreel #derryCaro4 {
   background-image: url(/img/stockImgs/Derry1.jpg);
 }
-
 #cinecoptersShowreel #derryCaro5 {
   background-image: url(/img/stockImgs/Derry2.jpg);
 }
-
 #cinecoptersShowreel #derryCaro6 {
   background-image: url(/img/stockImgs/Derry4.jpg);
 }
-
 #cinecoptersShowreel #derryCaro7 {
   background-image: url(/img/stockImgs/Derry5.jpg);
 }
-
 #cinecoptersShowreel #derryCaro8 {
   background-image: url(/img/stockImgs/Derry6.jpg);
 }
-
 #cinecoptersShowreel #derryCaro9 {
   background-image: url(/img/stockImgs/Derry7.jpg);
 }
-
 #cinecoptersShowreel #derryCaro10 {
   background-image: url(/img/stockImgs/Derry8.jpg);
 }
-
 #cinecoptersShowreel #dublinCaro1 {
   background-image: url(/img/stockImgs/Dublin2.jpg);
 }
-
 #cinecoptersShowreel #dublinCaro2 {
   background-image: url(/img/stockImgs/Dublin3.jpg);
 }
-
 #cinecoptersShowreel #dublinCaro3 {
   background-image: url(/img/stockImgs/Dublin4.jpg);
 }
-
 #cinecoptersShowreel #dublinCaro4 {
   background-image: url(/img/stockImgs/Dublin5.jpg);
 }
-
 #cinecoptersShowreel #dublinCaro5 {
   background-image: url(/img/stockImgs/Dublin6.jpg);
 }
-
 #cinecoptersShowreel #dublinCaro6 {
   background-image: url(/img/stockImgs/Dublin8.jpg);
 }
-
 #cinecoptersShowreel #dublinCaro7 {
   background-image: url(/img/stockImgs/Dublin9.jpg);
 }
-
 #cinecoptersShowreel #dublinCaro8 {
   background-image: url(/img/stockImgs/Dublin10.jpg);
 }
-
 #cinecoptersShowreel #dublinCaro9 {
   background-image: url(/img/stockImgs/Dublin11.jpg);
 }
-
 #cinecoptersShowreel #dublinCaro10 {
   background-image: url(/img/stockImgs/Dublin12.jpg);
 }
-
 #cinecoptersShowreel #miscCaro1 {
   background-image: url(/img/showreelimg5.png);
 }
-
 #cinecoptersShowreel #miscCaro2 {
   background-image: url(/img/stockImgs/Misc1.jpg);
 }
-
 #cinecoptersShowreel #miscCaro3 {
   background-image: url(/img/stockimg2.png);
 }
-
 #cinecoptersShowreel #miscCaro4 {
   background-image: url(/img/stockImgs/Misc2.jpg);
 }
-
 #cinecoptersShowreel #miscCaro5 {
   background-image: url(/img/stockImgs/Misc3.jpg);
 }
-
 #cinecoptersShowreel #miscCaro6 {
   background-image: url(/img/stockImgs/Misc4.jpg);
 }
-
 #cinecoptersShowreel #miscCaro7 {
   background-image: url(/img/stockImgs/Misc5.jpg);
 }
-
 #cinecoptersShowreel #miscCaro8 {
   background-image: url(/img/stockImgs/Misc6.jpg);
 }
-
 #cinecoptersShowreel #miscCaro9 {
   background-image: url(/img/stockImgs/Misc7.jpg);
 }
-
 #cinecoptersShowreel #miscCaro10 {
   background-image: url(/img/stockImgs/Misc8.jpg);
 }
-
 #cinecoptersShowreel #miscCaro11 {
   background-image: url(/img/stockImgs/Misc9.jpg);
 }
-
 #cinecoptersShowreel #miscCaro12 {
   background-image: url(/img/stockImgs/Misc10.jpg);
 }
-
 #cinecoptersShowreel #miscCaro13 {
   background-image: url(/img/stockImgs/Misc12.jpg);
 }
-
 #cinecoptersShowreel #miscCaro14 {
   background-image: url(/img/stockImgs/Misc13.jpg);
   background-position: bottom;
 }
-
 #cinecoptersShowreel #addMore:hover, #cinecoptersShowreel #addMore :focus, #cinecoptersShowreel #addMore :focus-within {
-  background-color: #007400 !important;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 119, 46, 0.25);
-          box-shadow: 0 0 0 0.2rem rgba(0, 119, 46, 0.25);
+  background-color: rgb(0, 116, 0) !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 119, 46, 0.25);
 }
-
 #cinecoptersShowreel #btnStockSubmit {
   margin-top: 20px;
   position: relative;
   left: -280px;
 }
-
 @media only screen and (max-width: 1024px) {
   #cinecoptersShowreel #btnStockSubmit {
     left: -240px;
   }
 }
-
 @media only screen and (max-width: 576px) {
   #cinecoptersShowreel #btnStockSubmit {
     left: 0px;
   }
 }
-
 #cinecoptersShowreel #btnStockSubmit:disabled {
   cursor: not-allowed;
   background-color: gray;
   border: solid 1px black;
 }
-
 #cinecoptersShowreel #stockDisabled {
   color: red;
 }
-
 #cinecoptersShowreel #videoNote {
   color: white;
 }
-
 @media only screen and (max-width: 376px) {
   #cinecoptersShowreel #videoNote {
     font-size: 0.8em;
@@ -1697,80 +1411,63 @@ header #logo-main:hover {
   font-size: 2em;
   margin-bottom: 80px;
 }
-
 #contact ul {
   padding: 0;
   list-style-type: none;
   font-size: 18px;
 }
-
 #contact li {
   margin-top: 5px;
 }
-
 #contact #contactBounceBtn {
   bottom: -20px;
 }
-
 #contact .imgContainer {
   background-image: url(/img/office5.jpg);
   background-position: center;
 }
-
 #contact p {
-  text-shadow: 0px 0px 20px black;
+  text-shadow: 0px 0px 20px rgb(0, 0, 0);
   font-size: 18px;
 }
-
 #contact #contactDetails {
   margin-top: 50px;
   text-align: center;
 }
-
 #contact #contactDetails .col-md {
   margin-bottom: 40px;
 }
-
 #contact #contactDetails .fa-mobile-alt, #contact #contactDetails .fa-paper-plane {
   font-size: 80px;
   margin: 60px 0;
 }
-
 #contact #contactDetails #accounts {
   margin-top: 60px;
 }
-
 @media only screen and (max-width: 376px) {
   #contact #contactDetails #accounts {
     margin: 40px 0 8px;
   }
 }
-
 #contact #contactForm {
   margin-bottom: 60px;
 }
-
 #contact #contactForm h3 {
   margin: 60px 0;
   text-align: center;
 }
-
 #contact #contactForm textarea {
   min-height: 200px;
 }
-
 #contact #contactForm #contactSendBtn {
   text-align: center;
 }
-
 #contact #contactForm #contactSendBtn input {
   padding: 10px 25px;
 }
-
 #contact #contactForm #contactSendBtn #contactSendBtnBtn {
   border: solid 1px black !important;
 }
-
 #contact #contactForm #contactSendBtn #contactSendBtnBtn:disabled {
   cursor: not-allowed;
   background-color: grey;
@@ -1781,5 +1478,4 @@ header #logo-main:hover {
   #christmas {
     top: 107px !important;
   }
-}
-/*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */

@@ -20,11 +20,32 @@
       <h1>Drones for Film &amp; TV</h1>
     </div>
     <div class="info">
-      <p>For as long as drones have been around, CineCopters, based in Belfast, Northern Ireland have been ahead of the pack.<br><br>
+      <ul>
+        <li>300+ Clients</li>
+        <li>20,000+ Flights</li>
+        <li>Multiple Drone Crews</li>
+        <li>Award Winning Shows and Movies</li>
+        <li>Drones and Rigs for Any Purpose</li>
+        <li>10 years as Ireland's Leading Drone Company</li>
+      </ul>
 
-        We fly the latest state-of-the-art Heavylift & Lightweight drones capable of carrying ALEXA MINI, RED, PHANTOM HI-SPEED & Zenmuse X7 cameras respectively.<br><br>
+      <hr>
+      <div>
+          <h2 class="quoteLeft">&ldquo;</h2>
+        <h2>
+          <cite>The bitterness of poor quality remains long after the sweetness of low price is forgotten</cite>
+        </h2>
+          <h2 class="quoteRight">&rdquo;</h2>
+      </div>
+      <hr>
+      <br>  
+      <p>CineCopters, based in Belfast, Northern Ireland is Ireland and Northern Ireland's largest and longest standing Drone Filming Company.<br><br>
 
-        We pride ourselves on our crews' experience, technical knowledge and our state-of-the-art custom built equipment - All capable of shooting Cinema-Standard pictures with 5km+ of live HD video feed.<br> Our pilots and camera operators bring more than 50 years' film and television experience to the set and have been flying drones commercially since their inception.<br><br>
+        Specialising state-of-the-art Heavy-lift, Light-lift and FPV drones all capable of cinema quality cameras.<br><br>
+
+        We pride ourselves on our crews' creative experience, technical knowledge and friendly communication skills. <br> <br> CineCopters bring more than 50 years' film and television experience to set and have been flying drones commercially since their inception.<br><br>
+
+        <hr>
 
         <strong>HBO - AMC - Universal Pictures - Film 4 - Scott Free Productions - Netflix - Microsoft - MTV - BBC - Discovery </strong> and many more all agree.<br><br>
 
@@ -41,7 +62,7 @@
 
   <div class="container" id="lastInfo">
     <div class="title">
-      <h2>What People Are Saying</h2>
+      <h2>Don't Take Our Word For It...</h2>
     </div>
     <div class="container card-group">
       <div id="riddley" class="card">
