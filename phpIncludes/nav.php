@@ -59,14 +59,14 @@
       </a>
     </div>
 
-    <div id="christmas" style="
+    <!-- <div id="christmas" style="
             display:flex;
             position:absolute;
             transform: translate(0%,-50%);
             position: absolute;
             top: 76%;
             right:0px;">
-        <div style="width:100%;
+      <div style="width:100%;
         position:relative;
         display: flex;
         justify-content: flex-end;">
@@ -75,8 +75,8 @@
    
         width: 100px;
         right: 0px!important;" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-        </div>
       </div>
+    </div> -->
 
 
   </div>
