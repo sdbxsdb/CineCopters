@@ -69,7 +69,7 @@
           </div>
         </div>
 
-        <h3>Shots from the past</h3>
+        <h3>Shots From The Past</h3>
         <div id="showreel1" class="showreelimgs" data-toggle="modal" data-target="#modal1">
           <i id="showplay" class="fas fa-play "></i>
         </div>
@@ -98,7 +98,7 @@
           </div>
         </div>
 
-        <h3>Ireland at it's best</h3>
+        <h3>Ireland At It's Best</h3>
         <div id="showreel2" class="showreelimgs" data-toggle="modal" data-target="#modal2">
           <i class="fas fa-play showplay"></i>
         </div>
