@@ -49,6 +49,34 @@
         </div>
       </div>
 
+      <!--**************-->
+
+      <div class="col-lg-4 col-md-12 mb-4">
+
+        <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body mb-0 p-0">
+
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7B61jPXpLyo?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3>Ready? Set! Action!</h3>
+        <div id="showreel3" class="showreelimgs" data-toggle="modal" data-target="#modal3">
+          <i class="fas fa-play showplay"></i>
+        </div>
+      </div>
+
       <div class="col-lg-4 col-md-12 mb-4">
 
         <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -104,33 +132,7 @@
         </div>
       </div>
 
-      <!--**************-->
 
-      <div class="col-lg-4 col-md-12 mb-4">
-
-        <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-body mb-0 p-0">
-
-                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7B61jPXpLyo?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                  </iframe>
-                </div>
-              </div>
-
-              <div class="modal-footer justify-content-center">
-                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <h3>Ready? Set! Action!</h3>
-        <div id="showreel3" class="showreelimgs" data-toggle="modal" data-target="#modal3">
-          <i class="fas fa-play showplay"></i>
-        </div>
-      </div>
 
       <!--**************-->
 
