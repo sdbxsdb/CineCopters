@@ -1,5 +1,6 @@
 //UNIVERSAL STYLING
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -20,7 +21,7 @@ html, body {
 .btn-success {
   &:focus {
     background-color: red !important;
-    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.349)!important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.349) !important;
   }
 }
 
@@ -52,18 +53,21 @@ html, body {
   padding: 60px 190px;
   display: flex;
   color: white;
-  box-shadow: inset 0px 0px 400px 400px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.75);
+
   @media only screen and (max-width: 1180px) {
     padding: 120px 50px 0;
 
-    }
-    @media only screen and (max-width: 991px) {
-      height: auto;
-      padding: 50px;
-      }
-      @media only screen and (max-width: 320px) {
-        padding: 5px;
-      }
+  }
+
+  @media only screen and (max-width: 991px) {
+    height: auto;
+    padding: 50px;
+  }
+
+  @media only screen and (max-width: 320px) {
+    padding: 5px;
+  }
 }
 
 //FORM STYLING 
@@ -85,7 +89,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 }
 
 .input-group-text {
- max-height: 38px;
+  max-height: 38px;
 }
 
 .remove {
@@ -98,25 +102,35 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   }
 }
 
-#tcInNew, #tcOutNew, #inputGroupSelect02 {
+#tcInNew,
+#tcOutNew,
+#inputGroupSelect02 {
   @media only screen and (max-width: 350px) {
-    font-size: 11px!important;
+    font-size: 11px !important;
   }
 }
 
 
-.test{
+.test {
   margin-top: 40px;
 }
+
 //End of form styling
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
+
   40% {
     transform: translateY(-30px);
   }
+
   60% {
     transform: translateY(-15px);
   }
@@ -150,7 +164,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 #navBgImg {
   background-image: url(/img/posters/showreelimages.jpg);
   background-size: contain;
-  box-shadow: inset 0px 0px 300px 200px rgba(0,0,0,0.5);
+  box-shadow: inset 0px 0px 300px 200px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
 }
 
@@ -164,19 +178,20 @@ header {
   #logo-main {
     display: block;
     margin: 0px auto;
+
     &:hover {
       cursor: pointer;
     }
 
     @media only screen and (max-width: 585px) {
       width: 90%;
-      }
- 
+    }
+
   }
 }
 
 #navbarWrapper {
-  
+
   #navbar {
     margin: 0 auto;
     padding: 0;
@@ -192,7 +207,7 @@ header {
       margin: 8px;
       height: 2px;
       background-color: rgb(255, 255, 255);
-  
+
     }
   }
 
@@ -204,16 +219,17 @@ header {
     a {
       color: rgb(255, 255, 255);
       padding: 10px 10px;
-      
+
 
       &:hover {
         color: rgb(255, 0, 0);
         transform: scale(1.04)a;
         transition: All 0.2s ease-in-out;
         text-shadow: 1px 1px 1px rgb(0, 0, 0);
-        
-       
+
+
       }
+
       &:focus-within {
         color: rgb(180, 0, 0);
       }
@@ -255,12 +271,13 @@ header {
     padding: 10px 6px;
   }
 
-  .footerNumberBR{
+  .footerNumberBR {
     display: none;
+
     @media only screen and (max-width: 414px) {
       display: inline;
     }
-  } 
+  }
 
 
   #footerHomeLink {
@@ -271,33 +288,38 @@ header {
   #bottomTag {
     @media only screen and (max-width: 1200px) {
       width: 108px;
-      }
+    }
   }
 
   #footerNameCopyWrite {
     @media only screen and (max-width: 414px) {
       margin-top: 80px;
-      }
+    }
   }
 
   #contactInfo {
     text-align: right;
+
     @media only screen and (max-width: 1200px) {
-      max-width: 330px;        
-      }
-      @media only screen and (max-width: 534px) {
-        font-size: 12px;
-        }
-      @media only screen and (max-width: 1200px) {
-        margin-left: 100px;
-      }
-      @media only screen and (max-width: 320px) {
-        word-break: break-all;
-      }
-      @media only screen and (max-width: 770px) {
-        margin-left: 0;
-        word-break: break-all;
-        }
+      max-width: 330px;
+    }
+
+    @media only screen and (max-width: 534px) {
+      font-size: 12px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      margin-left: 100px;
+    }
+
+    @media only screen and (max-width: 320px) {
+      word-break: break-all;
+    }
+
+    @media only screen and (max-width: 770px) {
+      margin-left: 0;
+      word-break: break-all;
+    }
 
 
 
@@ -313,7 +335,7 @@ header {
     line-height: 30px;
 
   }
-  
+
 
 }
 
@@ -327,152 +349,158 @@ header {
 
   #headerbox {
 
-   max-height: calc(100vh - 200px);
-   @media only screen and (max-width: 414px) {
-    max-height: calc(100vh - 180px);
+    max-height: calc(100vh - 200px);
+
+    @media only screen and (max-width: 414px) {
+      max-height: calc(100vh - 180px);
+    }
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // filter: brightness(1) contrast(1) grayscale(0) opacity(0.8);
+    //  pointer-events: none;
+
+
+    video {
+      min-height: 100vh;
+      min-width: 100vw;
+    }
   }
-   overflow: hidden;
-
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
-   // filter: brightness(1) contrast(1) grayscale(0) opacity(0.8);
-  //  pointer-events: none;
 
 
-   video {
-     min-height: 100vh;
-     min-width: 100vw;
-   }
-  }
+  #firstInfo {
 
+    text-align: center;
+    margin: 60px auto;
 
- #firstInfo {
-
-  text-align: center;
-  margin: 60px auto;
-
-   h1 {
-    font-family: 'Kanit', sans-serif;
-    font-size: 48px;
-    text-transform: uppercase;
-    letter-spacing: 8px;
-    margin-bottom: 40px;
-   }
-   h2 {
-    font-family: 'Kanit', sans-serif;
-    font-size: 28px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-   }
-
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 40px;
-  padding: 0;
-
-    li {
-      width: max-content;
-      list-style: none;
+    h1 {
+      font-family: 'Kanit', sans-serif;
+      font-size: 48px;
       text-transform: uppercase;
-      font-weight: bold;
-      margin: 0 15px;
-      font-size: 20px;
+      letter-spacing: 8px;
+      margin-bottom: 40px;
     }
 
-    li:before {
-      content: "  ";
-      margin: 0 5px;
+    h2 {
+      font-family: 'Kanit', sans-serif;
+      font-size: 28px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
     }
-    li:after {
-      content: "  ";
-      margin: 0 5px;
 
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 40px;
+      padding: 0;
+
+      li {
+        width: max-content;
+        list-style: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0 15px;
+        font-size: 20px;
+      }
+
+      li:before {
+        content: "  ";
+        margin: 0 5px;
+      }
+
+      li:after {
+        content: "  ";
+        margin: 0 5px;
+
+      }
+    }
+
+
+    .quoteLeft {
+      text-align: left;
+      margin: 0px;
+    }
+
+    .quoteRight {
+      text-align: right;
+      margin: 0px;
     }
   }
 
+  #lastInfo {
 
-   .quoteLeft{
-    text-align: left;
-    margin: 0px;
-   }
-   .quoteRight{
-    text-align: right;
-    margin: 0px;
-   }
- }
-
- #lastInfo {
-
-  text-align: center;
-  
+    text-align: center;
 
 
-  h2 {
-  text-align: center;
-  font-family: 'Kanit', sans-serif;
-  text-transform: uppercase;
-  margin: 0px;
-  word-spacing: 10px;
-}
 
-  .card-group {
-    text-align: left;
-    margin-left: 0;
-  }
-
-  .card {
-    height: auto;
-    border: none;
-    padding: 5px;
-    margin: 10px;
-    background-color: rgb(255, 255, 255);
-    box-shadow:  0px 4px 20px 0px rgba(0, 0, 0, 0.2);
-
-    &:hover {
-      transform: scale(1.01);
+    h2 {
+      text-align: center;
+      font-family: 'Kanit', sans-serif;
+      text-transform: uppercase;
+      margin: 0px;
+      word-spacing: 10px;
     }
+
+    .card-group {
+      text-align: left;
+      margin-left: 0;
+    }
+
+    .card {
+      height: auto;
+      border: none;
+      padding: 5px;
+      margin: 10px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+
+      &:hover {
+        transform: scale(1.01);
+      }
+
       @media only screen and (max-width: 320px) {
         margin: 0;
       }
 
 
 
+      hr {
+        height: 0.5px;
+        background-color: rgb(201, 201, 201);
+        border-radius: 10px;
+        margin: 20px 0;
+      }
+    }
+
     hr {
-      height: 0.5px;
-      background-color: rgb(201, 201, 201);
-      border-radius: 10px;
-      margin: 20px 0;
+      margin: 40px 0;
     }
   }
 
-  hr {
-    margin: 40px 0;
+
+  #riddley {
+    text-align: center;
+    font-size: 1.5em;
+
+    h5 {
+      font-weight: bolder;
+    }
   }
- }
 
-
-#riddley {
-  text-align: center;
-  font-size: 1.5em;
-
-  h5 {
-    font-weight: bolder;
+  #badlands {
+    text-align: center;
   }
-}
 
-#badlands {
-  text-align: center;
-}
-
-a {
-  color: black!important;
-  text-decoration: none;
-}
+  a {
+    color: black !important;
+    text-decoration: none;
+  }
 
 
 }
@@ -485,7 +513,7 @@ a {
     background-image: url(/img/vulcan4.jpg);
     background-position: center;
     padding-bottom: 20px;
-    
+
     @media only screen and (max-width: 414px) {
       padding: 50px 20px;
     }
@@ -505,40 +533,45 @@ a {
 
 
 
- 
 
-  .btn:focus, .btn:active, button:focus, button:active {
+
+  .btn:focus,
+  .btn:active,
+  button:focus,
+  button:active {
     outline: none !important;
     box-shadow: none !important;
   }
 
   #imgGalleryWrapper {
     margin-top: 60px;
- 
+
   }
-  
-  #image-gallery .modal-footer{
+
+  #image-gallery .modal-footer {
     display: block;
   }
 
   .row {
     margin: 0;
   }
-  
-  .thumb{
+
+  .thumb {
     margin: 0;
     padding: 0;
     height: auto;
     max-height: 130px;
     overflow: hidden;
+
     @media only screen and (max-width: 534px) {
-      max-height: 100px!important;
+      max-height: 100px !important;
+
       @media only screen and (max-width: 371px) {
-        width: 100%!important;
+        width: 100% !important;
       }
     }
 
-    
+
 
     &:hover {
       cursor: pointer;
@@ -554,7 +587,7 @@ a {
   }
 
   .modal-content {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     border-radius: 20px;
 
@@ -566,91 +599,110 @@ a {
   .thumbnail {
     position: relative;
     bottom: 55px;
+
     @media only screen and (max-width: 1200px) {
-      bottom: 0px!important;
-      }
-      @media only screen and (max-width: 767px) {
-        bottom: 150px!important;
-        }
-        @media only screen and (max-width: 500px) {
-          bottom: 0!important;
-        }
+      bottom: 0px !important;
+    }
+
+    @media only screen and (max-width: 767px) {
+      bottom: 150px !important;
+    }
+
+    @media only screen and (max-width: 500px) {
+      bottom: 0 !important;
+    }
   }
 
   #heavyTrolley {
     bottom: 40px;
   }
+
   #mercImg {
     bottom: 15px;
   }
+
   #cliffDivingImg {
     bottom: 0;
   }
-  #vulcan3{
+
+  #vulcan3 {
     bottom: 10px;
   }
+
   #oldOcto {
     bottom: 10px;
   }
+
   #handsetImg {
     bottom: 255px;
   }
+
   #inspireRoofImg {
     bottom: 140px;
   }
+
   #inspireWheelsImg {
     bottom: 220px;
   }
+
   #samlukeImg {
     bottom: 0px;
   }
+
   #tommyjackImg {
     bottom: 50px;
   }
-  #inspirethreesixty{
+
+  #inspirethreesixty {
     bottom: 75px;
   }
 
-  #cliffDiving2{
+  #cliffDiving2 {
     bottom: 0px;
   }
-  #heavylift2{
+
+  #heavylift2 {
     bottom: 160px;
   }
-  #allToys{
+
+  #allToys {
     bottom: 0px;
   }
-  #disco{
+
+  #disco {
     bottom: 0px;
   }
-  #lod6{
+
+  #lod6 {
     bottom: 10px;
   }
-  #inside{
+
+  #inside {
     bottom: 140px;
   }
 
-#qualis{
-  text-align: center;
-  margin-top: 100px;
-  
-  h2 {
-    margin: 40px 0;
+  #qualis {
+    text-align: center;
+    margin-top: 100px;
+
+    h2 {
+      margin: 40px 0;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 26px;
+    }
   }
 
-  p {
-    font-size: 18px;
-    line-height: 26px;
-  }
-}
-
-  #caaLogo{
+  #caaLogo {
     margin: 60px auto;
     width: 500px;
     height: 400px;
     background-image: url(/img/CaaIaa.png);
     background-repeat: no-repeat;
     background-size: contain;
+
     @media only screen and (max-width: 990px) {
       width: 250px;
       height: 200px;
@@ -658,15 +710,16 @@ a {
     }
   }
 }
+
 //END OF ABOUT PAGE STYLING//
 
 
 //WHAT WE DO PAGE STYLING//
 #cinecoptersEquipment {
 
-hr {
-  display: none;
-}
+  hr {
+    display: none;
+  }
 
 
   .imgContainer {
@@ -688,14 +741,15 @@ hr {
   //IMAGE PANNELS
   .panels {
     margin: 80px 50px 0;
-    display: flex; 
+    display: flex;
     overflow: hidden;
+
     @media only screen and (max-width: 620px) {
       margin: 40px 10px;
-      }
-    
+    }
+
   }
-  
+
   .panel {
     background-size: cover;
     height: 500px;
@@ -717,463 +771,514 @@ hr {
       flex 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11),
       background 0.2s;
 
-      @media only screen and (max-width: 1217px) {
-        font-size: 1.5em;
-        min-width: 120px;
-        max-height: 400px;
-        }
+    @media only screen and (max-width: 1217px) {
+      font-size: 1.5em;
+      min-width: 120px;
+      max-height: 400px;
+    }
 
-        @media only screen and (max-width: 830px) {
-          font-size: 1.1em;
-          min-width: 80px;
-          max-height: 300px;
-          }
+    @media only screen and (max-width: 830px) {
+      font-size: 1.1em;
+      min-width: 80px;
+      max-height: 300px;
+    }
 
-          @media only screen and (max-width: 620px) {
-            font-size: 0.8em;
-            min-width: 50px;
-            max-height: 250px;
-            }
-            @media only screen and (max-width: 414px) {
-              font-size: 0.6em;
-              min-width: 50px;
-              max-height: 250px;
-              }
-              @media only screen and (max-width: 320px) {
-                .btn {
-                  font-size: 1.2em!important;
-                  
-                }
-                &:hover {
-                  font-size: 0.5em!important;
-                }
-                }
+    @media only screen and (max-width: 620px) {
+      font-size: 0.8em;
+      min-width: 50px;
+      max-height: 250px;
+    }
+
+    @media only screen and (max-width: 414px) {
+      font-size: 0.6em;
+      min-width: 50px;
+      max-height: 250px;
+    }
+
+    @media only screen and (max-width: 320px) {
+      .btn {
+        font-size: 1.2em !important;
+
+      }
+
+      &:hover {
+        font-size: 0.5em !important;
+      }
+    }
 
 
-            
-  
+
+
     strong {
       font-size: 1em;
     }
   }
 
   .panelShadow {
-    box-shadow: inset 0px 0px 400px 400px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.5);
   }
-  
-  .panel > * {
+
+  .panel>* {
     flex: 1 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition:transform .5s;
-    
+    transition: transform .5s;
+
   }
-  
-  .panel > :first-child {
+
+  .panel> :first-child {
     transform: translateY(-100%);
   }
-  .panel.openActive > :first-child {
+
+  .panel.openActive> :first-child {
     transform: translateY(0);
   }
-  
-  .panel > :last-child {
+
+  .panel> :last-child {
     transform: translateY(100%);
   }
-  
-  .panel.openActive > :last-child {
+
+  .panel.openActive> :last-child {
     transform: translateY(0);
   }
-  
+
   #panel1 {
     background-image: url(/img/mavic.jpg);
     background-position: -450px;
     background-size: cover;
+
     @media only screen and (max-width: 1920px) {
       background-position: -400px;
+
       &:hover {
         background-position: 0;
       }
+
       @media only screen and (max-width: 1448px) {
         &:hover {
           background-position: -250px;
         }
       }
+
       @media only screen and (max-width: 1217px) {
         &:hover {
           background-position: -100px;
         }
       }
+
       @media only screen and (max-width: 1040px) {
         &:hover {
           background-position: -220px;
         }
       }
+
       @media only screen and (max-width: 500px) {
         background-position: -240px;
-        }
-      }    
- 
+      }
+    }
+
   }
-  
+
   #panel2 {
     background-image: url(/img/vulcan5.png);
     background-position: center;
-   
+
   }
-  
+
   #panel3 {
     background-image: url(/img/64224667_2092714990827434_1767709544332394496_n.jpg);
     background-position: -200px;
+
     @media only screen and (min-width: 1920px) {
       &:hover {
         background-position: 0;
       }
+    }
+
+    @media only screen and (max-width: 1217px) {
+      &:hover {
+        background-position: 0px;
       }
-      @media only screen and (max-width: 1217px) {
-        &:hover {
-          background-position: 0px;
-        }
+    }
+
+    @media only screen and (max-width: 415px) {
+      background-position: -120px;
+
+      &:hover {
+        background-position: -100px;
       }
-      @media only screen and (max-width: 415px) {
-        background-position: -120px;
-        &:hover {
-          background-position: -100px;
-        }
-        }
+    }
   }
-  
+
   #panel4 {
     background-image: url(/img/carmount2.jpg);
     background-position: -100px;
+
     @media only screen and (min-width: 1920px) {
       background-position: 0px;
+    }
+
+    @media only screen and (max-width: 1217px) {
+      &:hover {
+        background-position: 0px;
       }
-      @media only screen and (max-width: 1217px) {
-        &:hover {
-          background-position: 0px;
-        }
-      }
-      @media only screen and (max-width: 500px) {
-        background-position: -100px;
-        }
+    }
+
+    @media only screen and (max-width: 500px) {
+      background-position: -100px;
+    }
   }
-  
+
   #panel5 {
     background-image: url(/img/sicc2.jpeg);
     background-position: -230px;
+
     @media only screen and (min-width: 1920px) {
       &:hover {
         background-position: -80px;
       }
+    }
+
+    @media only screen and (max-width: 1217px) {
+      &:hover {
+        background-position: -80px;
       }
-      @media only screen and (max-width: 1217px) {
-        &:hover {
-          background-position: -80px;
-        }
-      }
+    }
   }
 
   #panel6 {
     background-image: url(/img/flir.jpg);
     background-position: center;
   }
-  
+
   .panel.open {
     font-size: 42px;
     flex: 5;
+
     @media only screen and (max-width: 620px) {
       font-size: 15px;
+
       .btn {
         font-size: 12px;
         width: 70px;
+
         @media only screen and (max-width: 320px) {
           width: 40px;
           padding: 2px;
-          font-size: 8px!important;
-          }
+          font-size: 8px !important;
+        }
       }
-      }
-  }
-//END OF IMAGE PANELS 
-
-//Equipment info panels styling
-
-
-.row {
-  margin: 0 0;
-}
-
-.lhs {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Kanit', sans-serif;
-  font-size: 3em;
-  color: white;
-  text-shadow: 2px 2px 2px rgb(0, 0, 0);
-  box-shadow: inset 0px 0px 400px 400px rgba(0,0,0,0.5);
-
-  @media only screen and (max-width: 500px) {
-    text-align: center!important;
-    }
-
-}
-
-.rhs {
-  box-shadow: inset 0px 0px 400px 400px rgba(255, 255, 255, 0.8);
-  display: flex;
-  padding: 50px;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  font-weight: 300;
-  display: block;
-
-  @media only screen and (max-width: 638px) {
-    font-size: 1em;
-    }
-
-  p {
-    margin-top: 40px;
-    text-align: center;
-    button {
-      font-size: 0.9em;
     }
   }
 
-  li {
-    margin-top: 10px;
-  }
-}
-//End of Equipment info panels styling
+  //END OF IMAGE PANELS 
 
-#smallRecce {
-  margin-top: 200px;
-  background-image: url(/img/reccebus.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  height: auto;
-  @media only screen and (min-width: 1920px) {
-    background-position: 0 -100px;
-    }
+  //Equipment info panels styling
+
+
+  .row {
+    margin: 0 0;
+  }
+
+  .lhs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.5);
+
     @media only screen and (max-width: 500px) {
-        margin-top: 50px;
-      }
-      @media only screen and (max-width: 414px) {
-        background-attachment: scroll;
-      }
-
-}
-#heavylift {
-  background-image: url(/img/vulcan5.png);
-  background-attachment: fixed;
-  background-size: cover;
-  height: auto;
-  @media only screen and (min-width: 1920px) {
-    background-position: 0 -200px;
+      text-align: center !important;
     }
+
+  }
+
+  .rhs {
+    box-shadow: inset 0px 0px 400px 400px rgba(255, 255, 255, 0.8);
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 300;
+    display: block;
+
+    @media only screen and (max-width: 638px) {
+      font-size: 1em;
+    }
+
+    p {
+      margin-top: 40px;
+      text-align: center;
+
+      button {
+        font-size: 0.9em;
+      }
+    }
+
+    li {
+      margin-top: 10px;
+    }
+  }
+
+  //End of Equipment info panels styling
+
+  #smallRecce {
+    margin-top: 200px;
+    background-image: url(/img/reccebus.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+
+    @media only screen and (min-width: 1920px) {
+      background-position: 0 -100px;
+    }
+
+    @media only screen and (max-width: 500px) {
+      margin-top: 50px;
+    }
+
+    @media only screen and (max-width: 414px) {
+      background-attachment: scroll;
+    }
+
+  }
+
+  #heavylift {
+    background-image: url(/img/vulcan5.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+
+    @media only screen and (min-width: 1920px) {
+      background-position: 0 -200px;
+    }
+
     @media only screen and (max-width: 415px) {
       background-attachment: scroll;
       background-position: -650px;
-      }
-}
+    }
+  }
 
-#lightlift {
-  background-image: url(/img/lightlift.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  height: auto;
-  @media only screen and (max-width: 415px) {
-    background-attachment: scroll;
-    background-position: -350px;
-    }
-}
+  #lightlift {
+    background-image: url(/img/lightlift.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
 
-#carmount {
-  background-image: url(/img/carmount2.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: 0 -50px;
-  height: auto;
-  @media only screen and (min-width: 1920px) {
-    background-position: 0 -100px;
-    }
-    @media only screen and (max-width: 415px) {
-      background-attachment: scroll;
-      background-position: -400px;
-      }
-}
-#lighttether {
-  background-image: url(/img/sicc.jpeg);
-  background-attachment: fixed;
-  background-position: 0px -450px;
-  background-size: cover;
-  height: auto;
-  @media only screen and (min-width: 1920px) {
-    background-position: 0 -150px;
-    }
     @media only screen and (max-width: 415px) {
       background-attachment: scroll;
       background-position: -350px;
-      }
-}
-#specialsystems {
-  background-image: url(/img/m200.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  height: auto;
-  @media only screen and (min-width: 1920px) {
-    background-position: 0 -150px;
     }
+  }
+
+  #carmount {
+    background-image: url(/img/carmount2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -50px;
+    height: auto;
+
+    @media only screen and (min-width: 1920px) {
+      background-position: 0 -100px;
+    }
+
+    @media only screen and (max-width: 415px) {
+      background-attachment: scroll;
+      background-position: -400px;
+    }
+  }
+
+  #lighttether {
+    background-image: url(/img/sicc.jpeg);
+    background-attachment: fixed;
+    background-position: 0px -450px;
+    background-size: cover;
+    height: auto;
+
+    @media only screen and (min-width: 1920px) {
+      background-position: 0 -150px;
+    }
+
+    @media only screen and (max-width: 415px) {
+      background-attachment: scroll;
+      background-position: -350px;
+    }
+  }
+
+  #specialsystems {
+    background-image: url(/img/m200.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+
+    @media only screen and (min-width: 1920px) {
+      background-position: 0 -150px;
+    }
+
     @media only screen and (max-width: 415px) {
       background-attachment: scroll;
       background-position: -450px;
-      }
-}
-
-.modal-lg {
-  max-width: 70%;
-  @media only screen and (max-width: 1700px) {
-    max-width: 85%; 
-  }
-  @media only screen and (max-width: 414px) {
-    max-width: 95%; 
-    transform: translate(0%, 50%);
-  }
-}
-
-.modalStock {
-  @media only screen and (min-width: 1911px) {
-    max-width: 62%!important; 
-  }
-  h5 {
-    background-color: black;
-    padding: 5px;
-  }
-}
-
-.modal-footer, .modal-content {
-  background-color: rgba(0, 0, 0, 0.349);
-}
-
-.servicesIntro {
-  margin-top: 85px;
-  padding: 20px 0;
-  border-top: solid 1px grey;
-  border-bottom: solid 1px grey;
-  @media only screen and (max-width: 576px) {
-    max-width: 95%; 
-  }
-  ul {
-    padding: 0;
-    text-align: center;
-    list-style: none;
-    li {
-      font-weight: bold;
-      font-size: 20px;
     }
   }
-   p {
-    text-align: center;
-    font-size: 20px;
+
+  .modal-lg {
+    max-width: 70%;
+
+    @media only screen and (max-width: 1700px) {
+      max-width: 85%;
+    }
+
+    @media only screen and (max-width: 414px) {
+      max-width: 95%;
+      transform: translate(0%, 50%);
+    }
+  }
+
+  .modalStock {
+    @media only screen and (min-width: 1911px) {
+      max-width: 62% !important;
+    }
+
+    h5 {
+      background-color: black;
+      padding: 5px;
+    }
+  }
+
+  .modal-footer,
+  .modal-content {
+    background-color: rgba(0, 0, 0, 0.349);
+  }
+
+  .servicesIntro {
+    margin-top: 85px;
+    padding: 20px 0;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+
+    @media only screen and (max-width: 576px) {
+      max-width: 95%;
+    }
+
+    ul {
+      padding: 0;
+      text-align: center;
+      list-style: none;
+
+      li {
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+
+    p {
+      text-align: center;
+      font-size: 20px;
       line-height: 36px;
-   }
+    }
+  }
 }
-}
+
 //**END OF EQUIPMENT PAGE STYLING**//
 
 //CLIENTS PAGE STYLING//
 
 #cinecoptersClients {
 
-.imgContainer {
-  background-image: url(/img/merc.jpg);
-  background-position: bottom;
+  .imgContainer {
+    background-image: url(/img/merc.jpg);
+    background-position: bottom;
 
-  h1 {
-    font-size: 2em;
-    margin-bottom: 80px;
+    h1 {
+      font-size: 2em;
+      margin-bottom: 80px;
+    }
+
+    p {
+      text-shadow: 0px 0px 20px rgb(0, 0, 0);
+      font-size: 18px;
+      line-height: 26px;
+    }
   }
 
-  p {
-    text-shadow: 0px 0px 20px rgb(0, 0, 0);
-    font-size: 18px;
-    line-height: 26px;
-  }
-}
 
+  #imgGalleryWrapper {
+    margin: 120px auto;
 
-#imgGalleryWrapper {
-margin: 120px auto;
-
-}
-
-#image-gallery .modal-footer{
-  display: block;
-}
-
-#image-gallery-image {
-  max-height: 550px;
-  width: auto;
-}
-
-
-.img-thumbnail {
-  height: 450px;
-  width: 286px;
-  object-fit: cover;
-  position: relative;
-  bottom: -55px;
-}
-
-.thumb{
-  margin: 0;
-  padding: 0;
-  max-height: 425px;
-  overflow: hidden;
-  @media only screen and (max-width: 767px) {
-    max-width: 50%;
-  }
-  @media only screen and (max-width: 320px) {
-    max-width: 50%;    
   }
 
-  &:hover {
-    border: solid 2px white;
+  #image-gallery .modal-footer {
+    display: block;
   }
-}
 
-img {
-  padding: 0;
-  margin: 0;
-  border: none;
-  border-radius: 0;
-  
-}
+  #image-gallery-image {
+    max-height: 550px;
+    width: auto;
+  }
 
-.modal-content {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
-  border-radius: 20px;
-  text-align: center;
 
-  span {
+  .img-thumbnail {
+    height: 450px;
+    width: 286px;
+    object-fit: cover;
+    position: relative;
+    bottom: -55px;
+  }
+
+  .thumb {
+    margin: 0;
+    padding: 0;
+    max-height: 425px;
+    overflow: hidden;
+
+    @media only screen and (max-width: 767px) {
+      max-width: 50%;
+    }
+
+    @media only screen and (max-width: 320px) {
+      max-width: 50%;
+    }
+
+    &:hover {
+      border: solid 2px white;
+    }
+  }
+
+  img {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+
+  }
+
+  .modal-content {
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
+    border-radius: 20px;
+    text-align: center;
+
+    span {
+      color: white;
+    }
   }
-}
 
 
-.thumbnail {
-  position: relative;
-  bottom: 55px;
-}
-
-.img-responsive {
-  @media only screen and (max-width: 415px) {
-    max-width: 85%; 
+  .thumbnail {
+    position: relative;
+    bottom: 55px;
   }
-}
+
+  .img-responsive {
+    @media only screen and (max-width: 415px) {
+      max-width: 85%;
+    }
+  }
 
 }
 
@@ -1195,11 +1300,11 @@ img {
     background-image: url(/img/badlandshorses.png);
     background-position: left;
     margin-bottom: 60px;
-  
+
     h2 {
       margin-bottom: 80px;
     }
-  
+
     p {
       text-shadow: 0px 0px 20px rgb(0, 0, 0);
       font-size: 18px;
@@ -1221,350 +1326,407 @@ img {
 
   .modal-lg {
     max-width: 70%;
+
     @media only screen and (max-width: 1700px) {
-      max-width: 85%; 
+      max-width: 85%;
     }
+
     @media only screen and (max-width: 414px) {
-      max-width: 95%; 
+      max-width: 95%;
       transform: translate(0%, 50%);
     }
   }
 
   .modalStock {
     @media only screen and (min-width: 1911px) {
-      max-width: 62%!important; 
+      max-width: 62% !important;
     }
+
     h5 {
       background-color: black;
       padding: 5px;
     }
   }
 
-  .modal-footer, .modal-content {
+  .modal-footer,
+  .modal-content {
     background-color: rgba(0, 0, 0, 0.349);
   }
 
-.showreelimgs {
-  background-size: cover;
-  max-width: 350px;
-  height: 149.92px;
-  border-radius: 5px;
+  .showreelimgs {
+    background-size: cover;
+    max-width: 350px;
+    height: 149.92px;
+    border-radius: 5px;
 
-  &:hover {
-    box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
     &:hover {
-      cursor: pointer;
+      box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      i {
+        display: block;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .showreelimgs {
+    @media only screen and (max-width: 996px) {
+      margin: 0 auto;
+    }
+  }
+
+
+
+  #showreel1 {
+    background-image: url(/img/showreelimg.png);
+
+  }
+
+  #showreel2 {
+    background-image: url(/img/showreelimg6.png);
+  }
+
+  #showreel3 {
+    background-image: url(/img/showreelimg8.png);
+  }
+
+  #showreel4 {
+    background-image: url(/fpvthumbnail.jpeg);
+    background-position: center;
+  }
+
+  #showreel5 {
+    background-image: url(/fpvthumb2.jpeg);
+    background-position: bottom;
+    background-size: 124%;
+  }
+
+  #showreel6 {
+    background-image: url(/2023ReelThumb.jpeg);
+    background-position: center;
+  }
+
+  #stockInfo {
+    margin-top: 60px;
+
+    p {
+      margin-bottom: 120px;
     }
 
-    i {
-      display: block;
-      &:hover {
+    #warning {
+      color: rgb(143, 143, 143);
+    }
+  }
+
+  //**STOCK CAROUSEL BITS//
+  .carouselImg {
+    max-width: 350px;
+    height: 149.92px;
+    border-radius: 5px;
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
+    }
+  }
+
+  .hoverDark {
+    box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
+  }
+
+  .carouselWrapper {
+    border-radius: 5px;
+    overflow: hidden;
+
+    &:hover {
+      i {
+        display: block;
         cursor: pointer;
       }
     }
   }
-}
 
-.showreelimgs {
-  @media only screen and (max-width: 996px) {
-    margin: 0 auto;
- }
-}
-
-
-
-#showreel1 {
-  background-image: url(/img/showreelimg.png);
-
-}
-#showreel2 {
-  background-image: url(/img/showreelimg6.png);
-}
-#showreel3 {
-  background-image: url(/img/showreelimg8.png);
-}
-#showreel4 {
-  background-image: url(/fpvthumbnail.jpeg);
-  background-position: center;
-}
-#showreel5 {
-  background-image: url(/fpvthumb2.jpeg);
-  background-position: bottom;
-  background-size: 124%;
-}
-#showreel6 {
-  background-image: url(/2021reelThumb.jpeg);
-  background-position: center;
-}
-
-#stockInfo {
-  margin-top: 60px;
-  p {
-    margin-bottom: 120px;
+  .carousel-item {
+    background-size: cover;
+    max-width: 350px;
+    height: 149.92px;
+    border-radius: 5px;
   }
-  #warning {
-    color: rgb(143, 143, 143);
+
+  .fa-play {
+    color: white;
+    font-size: 36px;
+    z-index: 2;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+
+    &:hover {
+      color: red;
+      font-size: 40px;
+    }
+
   }
-}
 
-//**STOCK CAROUSEL BITS//
-.carouselImg {
-  max-width: 350px;
-  height: 149.92px;
-  border-radius: 5px;
+  #stockfootage6 {
+    @media only screen and (min-width: 991px) {
+      position: relative;
+      width: 100%;
+      left: 50%;
+      transform: translate(-50%);
+    }
 
-  &:hover {
-    cursor: pointer;
-    box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
   }
-}
 
-.hoverDark {
-  box-shadow: inset 0px 0px 400px 400px rgba(0, 0, 0, 0.349);
-}
+  #miscPlay {
+    padding-bottom: 15%;
+  }
 
-.carouselWrapper {
-  border-radius: 5px;
-  overflow: hidden;
+  #belfastCaro1 {
+    background-image: url(/img/belfastcitycopy.jpg);
+    background-position: center;
+  }
 
-  &:hover{
-    i {
-      display: block;
-      cursor: pointer;
+  #belfastCaro2 {
+    background-image: url(/img/belfastcityhall.jpg);
+  }
+
+  #belfastCaro3 {
+    background-image: url(/img/europahotel.jpg);
+  }
+
+  #belfastCaro4 {
+    background-image: url(/img/stockImgs/Belfast4.jpg);
+  }
+
+  #belfastCaro5 {
+    background-image: url(/img/stockImgs/Belfast5.jpg);
+  }
+
+  // #belfastCaro6 {
+  //   background-image: url(/img/stockImgs/Belfast6.jpg);
+  // }
+  // #belfastCaro7 {
+  //   background-image: url(/img/stockImgs/Belfast10.jpg);
+  // }
+  #belfastCaro8 {
+    background-image: url(/img/stockImgs/Belfast11.jpg);
+  }
+
+  #belfastCaro9 {
+    background-image: url(/img/stockImgs/Belfast15.jpg);
+  }
+
+  #belfastCaro10 {
+    background-image: url(/img/stockImgs/Belfast16.jpg);
+  }
+
+  #belfastCaro11 {
+    background-image: url(/img/stockImgs/Belfast17.jpg);
+  }
+
+  #belfastCaro12 {
+    background-image: url(/img/stockImgs/Belfast18.jpg);
+  }
+
+  ///////
+  // #derryCaro1 {
+  //   background-image: url(/img/stockimg2.png);
+  // }
+  // #derryCaro2 {
+  //   background-image: url(/img/stockimg3.png);
+  // }
+  #derryCaro3 {
+    background-image: url(/img/stockimg5.png);
+  }
+
+  #derryCaro4 {
+    background-image: url(/img/stockImgs/Derry1.jpg);
+  }
+
+  #derryCaro5 {
+    background-image: url(/img/stockImgs/Derry2.jpg);
+  }
+
+  #derryCaro6 {
+    background-image: url(/img/stockImgs/Derry4.jpg);
+  }
+
+  #derryCaro7 {
+    background-image: url(/img/stockImgs/Derry5.jpg);
+  }
+
+  #derryCaro8 {
+    background-image: url(/img/stockImgs/Derry6.jpg);
+  }
+
+  #derryCaro9 {
+    background-image: url(/img/stockImgs/Derry7.jpg);
+  }
+
+  #derryCaro10 {
+    background-image: url(/img/stockImgs/Derry8.jpg);
+  }
+
+  //////
+  #dublinCaro1 {
+    background-image: url(/img/stockImgs/Dublin2.jpg);
+  }
+
+  #dublinCaro2 {
+    background-image: url(/img/stockImgs/Dublin3.jpg);
+  }
+
+  #dublinCaro3 {
+    background-image: url(/img/stockImgs/Dublin4.jpg);
+  }
+
+  #dublinCaro4 {
+    background-image: url(/img/stockImgs/Dublin5.jpg);
+  }
+
+  #dublinCaro5 {
+    background-image: url(/img/stockImgs/Dublin6.jpg);
+  }
+
+  #dublinCaro6 {
+    background-image: url(/img/stockImgs/Dublin8.jpg);
+  }
+
+  #dublinCaro7 {
+    background-image: url(/img/stockImgs/Dublin9.jpg);
+  }
+
+  #dublinCaro8 {
+    background-image: url(/img/stockImgs/Dublin10.jpg);
+  }
+
+  #dublinCaro9 {
+    background-image: url(/img/stockImgs/Dublin11.jpg);
+  }
+
+  #dublinCaro10 {
+    background-image: url(/img/stockImgs/Dublin12.jpg);
+  }
+
+
+
+
+  //////
+  #miscCaro1 {
+    background-image: url(/img/showreelimg5.png);
+  }
+
+  #miscCaro2 {
+    background-image: url(/img/stockImgs/Misc1.jpg);
+  }
+
+  #miscCaro3 {
+    background-image: url(/img/stockimg2.png);
+  }
+
+  #miscCaro4 {
+    background-image: url(/img/stockImgs/Misc2.jpg);
+  }
+
+  #miscCaro5 {
+    background-image: url(/img/stockImgs/Misc3.jpg);
+  }
+
+  #miscCaro6 {
+    background-image: url(/img/stockImgs/Misc4.jpg);
+  }
+
+  #miscCaro7 {
+    background-image: url(/img/stockImgs/Misc5.jpg);
+  }
+
+  #miscCaro8 {
+    background-image: url(/img/stockImgs/Misc6.jpg);
+  }
+
+  #miscCaro9 {
+    background-image: url(/img/stockImgs/Misc7.jpg);
+  }
+
+  #miscCaro10 {
+    background-image: url(/img/stockImgs/Misc8.jpg);
+  }
+
+  #miscCaro11 {
+    background-image: url(/img/stockImgs/Misc9.jpg);
+  }
+
+  #miscCaro12 {
+    background-image: url(/img/stockImgs/Misc10.jpg);
+  }
+
+  #miscCaro13 {
+    background-image: url(/img/stockImgs/Misc12.jpg);
+  }
+
+  #miscCaro14 {
+    background-image: url(/img/stockImgs/Misc13.jpg);
+    background-position: bottom;
+  }
+
+
+  #addMore {
+
+    &:hover,
+    :focus,
+    :focus-within {
+      background-color: rgb(0, 116, 0) !important;
+      box-shadow: 0 0 0 0.2rem rgba(0, 119, 46, 0.25);
+    }
+
+  }
+
+
+
+  #btnStockSubmit {
+    margin-top: 20px;
+    position: relative;
+    left: -280px;
+
+    @media only screen and (max-width: 1024px) {
+      left: -240px;
+    }
+
+    @media only screen and (max-width: 576px) {
+      left: 0px;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: gray;
+      border: solid 1px black;
     }
   }
-}
 
-.carousel-item {
-  background-size: cover;
-  max-width: 350px;
-  height: 149.92px;
-  border-radius: 5px;
-}
-
-.fa-play {
-  color: white;
-  font-size: 36px;
-  z-index: 2;
-  position: absolute;
-  top: 64%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: none;
-
-  &:hover {
+  #stockDisabled {
     color: red;
-    font-size: 40px;
+  }
+
+  #videoNote {
+    color: white;
+
+    @media only screen and (max-width: 376px) {
+      font-size: 0.8em;
+    }
   }
 
 }
 
-#stockfootage6 {
-  @media only screen and (min-width: 991px) {
-  position: relative;
-  width: 100%;
-  left: 50%;
-  transform: translate(-50%);
-  }
-  
-}
-
-#miscPlay {
-  padding-bottom: 15%;
-}
-
-#belfastCaro1 {
-  background-image: url(/img/belfastcitycopy.jpg);
-  background-position: center;
-}
-#belfastCaro2 {
-  background-image: url(/img/belfastcityhall.jpg);
-}
-#belfastCaro3 {
-  background-image: url(/img/europahotel.jpg);
-}
-#belfastCaro4 {
-  background-image: url(/img/stockImgs/Belfast4.jpg);
-}
-#belfastCaro5 {
-  background-image: url(/img/stockImgs/Belfast5.jpg);
-}
-// #belfastCaro6 {
-//   background-image: url(/img/stockImgs/Belfast6.jpg);
-// }
-// #belfastCaro7 {
-//   background-image: url(/img/stockImgs/Belfast10.jpg);
-// }
-#belfastCaro8 {
-  background-image: url(/img/stockImgs/Belfast11.jpg);
-}
-#belfastCaro9 {
-  background-image: url(/img/stockImgs/Belfast15.jpg);
-}
-#belfastCaro10 {
-  background-image: url(/img/stockImgs/Belfast16.jpg);
-}
-#belfastCaro11 {
-  background-image: url(/img/stockImgs/Belfast17.jpg);
-}
-#belfastCaro12 {
-  background-image: url(/img/stockImgs/Belfast18.jpg);
-}
-
-///////
-// #derryCaro1 {
-//   background-image: url(/img/stockimg2.png);
-// }
-// #derryCaro2 {
-//   background-image: url(/img/stockimg3.png);
-// }
-#derryCaro3 {
-  background-image: url(/img/stockimg5.png);
-}
-#derryCaro4 {
-  background-image: url(/img/stockImgs/Derry1.jpg);
-}
-#derryCaro5 {
-  background-image: url(/img/stockImgs/Derry2.jpg);
-}
-#derryCaro6 {
-  background-image: url(/img/stockImgs/Derry4.jpg);
-}
-#derryCaro7 {
-  background-image: url(/img/stockImgs/Derry5.jpg);
-}
-#derryCaro8 {
-  background-image: url(/img/stockImgs/Derry6.jpg);
-}
-#derryCaro9 {
-  background-image: url(/img/stockImgs/Derry7.jpg);
-}
-#derryCaro10 {
-  background-image: url(/img/stockImgs/Derry8.jpg);
-}
-
-//////
-#dublinCaro1 {
-  background-image: url(/img/stockImgs/Dublin2.jpg);
-}
-#dublinCaro2 {
-  background-image: url(/img/stockImgs/Dublin3.jpg);
-}
-#dublinCaro3 {
-  background-image: url(/img/stockImgs/Dublin4.jpg);
-}
-#dublinCaro4 {
-  background-image: url(/img/stockImgs/Dublin5.jpg);
-}
-#dublinCaro5 {
-  background-image: url(/img/stockImgs/Dublin6.jpg);
-}
-#dublinCaro6 {
-  background-image: url(/img/stockImgs/Dublin8.jpg);
-}
-#dublinCaro7 {
-  background-image: url(/img/stockImgs/Dublin9.jpg);
-}
-#dublinCaro8 {
-  background-image: url(/img/stockImgs/Dublin10.jpg);
-}
-#dublinCaro9 {
-  background-image: url(/img/stockImgs/Dublin11.jpg);
-}
-#dublinCaro10 {
-  background-image: url(/img/stockImgs/Dublin12.jpg);
-}
-
-
-
-
-//////
-#miscCaro1 {
-  background-image: url(/img/showreelimg5.png);
-}
-#miscCaro2 {
-  background-image: url(/img/stockImgs/Misc1.jpg);
-}
-#miscCaro3 {
-  background-image: url(/img/stockimg2.png);
-}
-#miscCaro4 {
-  background-image: url(/img/stockImgs/Misc2.jpg);
-}
-#miscCaro5 {
-  background-image: url(/img/stockImgs/Misc3.jpg);
-}
-#miscCaro6 {
-  background-image: url(/img/stockImgs/Misc4.jpg);
-}
-#miscCaro7 {
-  background-image: url(/img/stockImgs/Misc5.jpg);
-}
-#miscCaro8 {
-  background-image: url(/img/stockImgs/Misc6.jpg);
-}
-#miscCaro9 {
-  background-image: url(/img/stockImgs/Misc7.jpg);
-}
-#miscCaro10 {
-  background-image: url(/img/stockImgs/Misc8.jpg);
-}
-#miscCaro11 {
-  background-image: url(/img/stockImgs/Misc9.jpg);
-}
-#miscCaro12 {
-  background-image: url(/img/stockImgs/Misc10.jpg);
-}
-#miscCaro13 {
-  background-image: url(/img/stockImgs/Misc12.jpg);
-}
-#miscCaro14 {
-  background-image: url(/img/stockImgs/Misc13.jpg);
-  background-position: bottom;
-}
-
-
-#addMore {
-  
-  &:hover, :focus, :focus-within {
-    background-color: rgb(0, 116, 0)!important;
-    box-shadow: 0 0 0 0.2rem rgba(0, 119, 46, 0.25);
-  }
-
-}
-
-
-
-#btnStockSubmit {
-  margin-top: 20px;
-  position: relative;
-  left: -280px;
-  @media only screen and (max-width: 1024px) {
-    left: -240px;
-  }
-  @media only screen and (max-width: 576px) {
-    left: 0px;
-  }
-
-  &:disabled {
-    cursor: not-allowed;
-    background-color: gray;
-    border: solid 1px black;
-  }
-}
-
-#stockDisabled {
-  color: red;
-}
-
-#videoNote {
-  color: white;
-  @media only screen and (max-width: 376px) {
-    font-size: 0.8em;
-  }
-}
-
-}
 //**END OF SHOWREEL PAGE STYLING//
 
 
@@ -1605,68 +1767,72 @@ img {
     background-position: center;
   }
 
-      p {
-      text-shadow: 0px 0px 20px rgb(0, 0, 0);
-      font-size: 18px;
-      // line-height: 26px;
+  p {
+    text-shadow: 0px 0px 20px rgb(0, 0, 0);
+    font-size: 18px;
+    // line-height: 26px;
+  }
+
+  #contactDetails {
+    .col-md {
+      margin-bottom: 40px;
     }
 
-    #contactDetails {
-      .col-md {
-        margin-bottom: 40px;
+    margin-top: 50px;
+    text-align: center;
+
+    .fa-mobile-alt,
+    .fa-paper-plane {
+      font-size: 80px;
+      margin: 60px 0;
+    }
+
+    #accounts {
+      margin-top: 60px;
+
+      @media only screen and (max-width: 376px) {
+        margin: 40px 0 8px;
       }
-      margin-top: 50px;
+    }
+
+
+
+
+
+
+  }
+
+  #contactForm {
+
+    margin-bottom: 60px;
+
+    h3 {
+      margin: 60px 0;
+      text-align: center;
+    }
+
+    textarea {
+      min-height: 200px;
+    }
+
+    #contactSendBtn {
       text-align: center;
 
-      .fa-mobile-alt, .fa-paper-plane {
-        font-size: 80px;
-        margin: 60px 0;
+      input {
+        padding: 10px 25px;
       }
 
-      #accounts {
-        margin-top: 60px;
-        @media only screen and (max-width: 376px) {
-          margin: 40px 0 8px;
-        }
-      }
+      #contactSendBtnBtn {
+        border: solid 1px black !important;
 
-
-
-    
-
-
-    }
-
-    #contactForm {
-
-      margin-bottom: 60px;
-
-      h3 {
-        margin: 60px 0;
-        text-align: center;
-      }
-
-      textarea {
-        min-height: 200px;
-      }
-
-      #contactSendBtn {
-        text-align: center;
-        
-        input {
-          padding: 10px 25px;
-        }
-
-        #contactSendBtnBtn {
-          border: solid 1px black!important;
-          &:disabled {
-            cursor: not-allowed;
-            background-color: grey;
-            border: gray;
-          }
+        &:disabled {
+          cursor: not-allowed;
+          background-color: grey;
+          border: gray;
         }
       }
     }
+  }
 }
 
 //** END OF CONTACT PAGE STYLING//
@@ -1676,8 +1842,8 @@ img {
 //**CHRISTMAS STYLING//
 #christmas {
   @media only screen and (max-width: 414px) {
-    top: 107px!important;
-    }
+    top: 107px !important;
+  }
 }
 
 //OTHER SERVICES PAGE STYLING//
@@ -1704,17 +1870,3 @@ img {
 //   }
 
 // }
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
