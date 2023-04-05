@@ -71,7 +71,7 @@ body {
   margin-bottom: 16px;
 }
 
-input[type="time"]::-webkit-calendar-picker-indicator {
+input[type=time]::-webkit-calendar-picker-indicator {
   background: none;
   width: auto;
 }
@@ -110,28 +110,8 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   margin-top: 40px;
 }
 
-@-webkit-keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
-
 @keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
+  0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
   40% {
@@ -155,7 +135,6 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 }
 
 .bounce {
-  -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
 
@@ -296,7 +275,7 @@ header #logo-main:hover {
 #footerWrapper #contactInfo a {
   color: white;
   -webkit-text-decoration: underline rgb(185, 185, 185);
-  text-decoration: underline rgb(185, 185, 185);
+          text-decoration: underline rgb(185, 185, 185);
 }
 #footerWrapper h4 {
   border-bottom: solid 2px red;
@@ -349,7 +328,6 @@ header #logo-main:hover {
   padding: 0;
 }
 #cinecoptersHome #firstInfo ul li {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   list-style: none;
@@ -638,8 +616,7 @@ header #logo-main:hover {
   text-transform: uppercase;
   color: white;
   text-shadow: 2px 2px 2px rgb(150, 150, 150);
-  transition: font-size 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11),
-    flex 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11), background 0.2s;
+  transition: font-size 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11), flex 0.3s cubic-bezier(0.61, -0.19, 0.7, 0.11), background 0.2s;
 }
 @media only screen and (max-width: 1217px) {
   #cinecoptersEquipment .panel {
@@ -1045,7 +1022,7 @@ header #logo-main:hover {
   height: 450px;
   width: 286px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   position: relative;
   bottom: -55px;
 }
@@ -1182,7 +1159,7 @@ header #logo-main:hover {
   background-image: url(/img/showreelimg8.png);
 }
 #cinecoptersShowreel #showreel4 {
-  background-image: url(/fpvthumbnail.jpeg);
+  background-image: url(/F12023.jpeg);
   background-position: center;
 }
 #cinecoptersShowreel #showreel5 {
@@ -1498,4 +1475,4 @@ header #logo-main:hover {
   #christmas {
     top: 107px !important;
   }
-} /*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */
