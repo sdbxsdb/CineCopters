@@ -69,7 +69,7 @@
           </div>
         </div>
 
-        <h3>Where we came from</h3>
+        <h3>Shots from the past</h3>
         <div id="showreel1" class="showreelimgs" data-toggle="modal" data-target="#modal1">
           <i id="showplay" class="fas fa-play "></i>
         </div>
