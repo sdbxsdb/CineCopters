@@ -57,14 +57,7 @@
               <br><br>
               Dublin |
               <a href="tel:0035314869770">+353 1486 9770</a>
-              <!-- <br><br>
-              Glasgow | 
-              <a href="tel:00441414590259">+44 141 459 0259</a> -->
-              <!-- <br><br> -->
               <hr>
-              Technical |
-              <a href="tel:00447780586444">+4477 805 86444</a>
-              <br><br>
               Technical |
               <a href="tel:00447540251374">+4475 402 51374</a>
         </cite>
